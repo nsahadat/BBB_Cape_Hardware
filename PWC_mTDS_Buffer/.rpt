@@ -1,0 +1,35 @@
+** Drc report for D:\Dropbox\Fun_Projects\PWC_mTDS_Buffer\PWC_mTDS_Buffer.kicad_pcb **
+** Created on  **
+
+** Found 9 DRC errors **
+ErrType(19): Pad near pad
+    @ (139.500 mm,98.090 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of U3
+    @ (139.500 mm,99.360 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of U3
+ErrType(19): Pad near pad
+    @ (139.500 mm,99.360 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of U3
+    @ (139.500 mm,100.630 mm): Pad 5 on F.Cu, B.Cu, Internal, Non-copper of U3
+ErrType(19): Pad near pad
+    @ (139.500 mm,100.630 mm): Pad 5 on F.Cu, B.Cu, Internal, Non-copper of U3
+    @ (139.500 mm,101.900 mm): Pad 7 on F.Cu, B.Cu, Internal, Non-copper of U3
+ErrType(19): Pad near pad
+    @ (139.500 mm,101.900 mm): Pad 7 on F.Cu, B.Cu, Internal, Non-copper of U3
+    @ (139.500 mm,103.170 mm): Pad 9 on F.Cu, B.Cu, Internal, Non-copper of U3
+ErrType(19): Pad near pad
+    @ (139.500 mm,103.170 mm): Pad 9 on F.Cu, B.Cu, Internal, Non-copper of U3
+    @ (140.770 mm,103.170 mm): Pad 10 on F.Cu, B.Cu, Internal, Non-copper of U3
+ErrType(19): Pad near pad
+    @ (140.770 mm,98.090 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of U3
+    @ (140.770 mm,99.360 mm): Pad 4 on F.Cu, B.Cu, Internal, Non-copper of U3
+ErrType(19): Pad near pad
+    @ (140.770 mm,99.360 mm): Pad 4 on F.Cu, B.Cu, Internal, Non-copper of U3
+    @ (140.770 mm,100.630 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of U3
+ErrType(19): Pad near pad
+    @ (140.770 mm,100.630 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of U3
+    @ (140.770 mm,101.900 mm): Pad 8 on F.Cu, B.Cu, Internal, Non-copper of U3
+ErrType(19): Pad near pad
+    @ (140.770 mm,101.900 mm): Pad 8 on F.Cu, B.Cu, Internal, Non-copper of U3
+    @ (140.770 mm,103.170 mm): Pad 10 on F.Cu, B.Cu, Internal, Non-copper of U3
+
+** Found 0 unconnected pads **
+
+** End of Report **
