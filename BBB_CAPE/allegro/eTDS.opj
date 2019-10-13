@@ -1,0 +1,89 @@
+(ExpressProject "eTDS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\cadence\spb_16.6\tools\capture\library\oldlibs\layout.olb"
+        (Type "Schematic Library"))
+      (File "c:\cadence\spb_16.6\tools\capture\library\oldlibs\analog.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\etds.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "C:\USERS\MSAHADAT3\DROPBOX\GATECH\ETDS_PCB")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" ".brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File "..\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "..\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "..\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_16.6\tools\capture\library\oldlibs")
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\msahadat3\Dropbox\GATech\eTDS_PCB\allegro\etds.dsn")
+      (Path "Design Resources"
+         "C:\Users\msahadat3\Dropbox\GATech\eTDS_PCB\allegro\etds.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Users\msahadat3\Dropbox\GATech\eTDS_PCB\allegro\etds.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 401"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1454 50 489")
+        (Scroll "0 0")
+        (Zoom "53")
+        (Occurrence "/"))
+      (Path "C:\USERS\MSAHADAT3\DROPBOX\GATECH\ETDS_PCB\ALLEGRO\ETDS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "msahadat3"))

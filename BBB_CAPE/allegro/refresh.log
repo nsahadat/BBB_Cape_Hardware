@@ -1,0 +1,121 @@
+Tue May 17 20:24:23 2016				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Tue May 17 20:24:23 2016
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : BBB_CAPE_PCB_AN_V_1_1.brd                     )
+(    Software Version : 16.6-2015S056                                 )
+(    Date/Time        : Tue May 17 20:24:23 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue May 17 20:24:23 2016				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/BBB_CAPE_PCB_AN_V_1_1.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'YES'
+Update symbol padstacks                = 'YES'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/CADENCE/SPB_16.6/share/local/pcb/symbols 
+           C:/CADENCE/SPB_16.6/share/PCB/pcb_lib/symbols 
+           C:/CADENCE/SPB_16.6/share/PCB/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/CADENCE/SPB_16.6/share/local/pcb/padstacks 
+           C:/CADENCE/SPB_16.6/share/PCB/pcb_lib/symbols 
+           C:/CADENCE/SPB_16.6/share/PCB/allegrolib/symbols 
+
+
+------ Symbol Refresh Messages ------
+
+'JUMPER2'  symbol refreshed successfully.
+'R0402'  symbol refreshed successfully.
+'L0402'  symbol refreshed successfully.
+'C0402'  symbol refreshed successfully.
+'CRYST_26M'  symbol refreshed successfully.
+'LMZ14203'  symbol refreshed successfully.
+'AD5724'  symbol refreshed successfully.
+'CC2510'  symbol refreshed successfully.
+'CONNECT22X2'  symbol refreshed successfully.
+'MBR0520L'  symbol refreshed successfully.
+'MOS_DMN'  symbol refreshed successfully.
+'DIODED'  symbol refreshed successfully.
+'BALUNN'  symbol refreshed successfully.
+'ANT_W'  symbol refreshed successfully.
+'H4X2'  symbol refreshed successfully.
+'H5X1_DEB'  symbol refreshed successfully.
+'DISP_HEADER'  symbol refreshed successfully.
+'TPS71730'  symbol refreshed successfully.
+'UART_HEADER'  symbol refreshed successfully.
+'BARRELCON'  symbol refreshed successfully.
+'AB00'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'PADMM3P5RECT1'  pad stack refreshed successfully.
+'PADMM1RECT3P5'  pad stack refreshed successfully.
+'SMD20REC20'  pad stack refreshed successfully.
+'SMD30REC30'  pad stack refreshed successfully.
+'SMD50REC10'  pad stack refreshed successfully.
+'SMD40REC40'  pad stack refreshed successfully.
+'SMD32REC40'  pad stack refreshed successfully.
+'SMD16REC32'  pad stack refreshed successfully.
+'SMD16REC36'  pad stack refreshed successfully.
+'PAD45CIR30D'  pad stack refreshed successfully.
+'SMD35REC35'  pad stack refreshed successfully.
+'RX173P23Y173P23D0T'  pad stack refreshed successfully.
+'RX410Y406D0T'  pad stack refreshed successfully.
+'PAD44CIR34D'  pad stack refreshed successfully.
+'SMD19REC19'  pad stack refreshed successfully.
+'PAD65CIR42D'  pad stack refreshed successfully.
+'PADMM1RECT3'  pad stack refreshed successfully.
+'RX128Y198D0T'  pad stack refreshed successfully.
+'RX58Y14D0TSM'  pad stack refreshed successfully.
+'RX29Y93D0T'  pad stack refreshed successfully.
+Tue May 17 20:24:23 2016				Page     2
+
+
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 21 out 21
+    Design updated.
+

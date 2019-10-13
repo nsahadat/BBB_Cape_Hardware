@@ -1,0 +1,175 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : ETDS_PCB_V1_3.brd                             )
+(    Software Version : 16.6S034                                      )
+(    Date/Time        : Mon Aug 24 10:41:50 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Aug 24 10:41:50 2015				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/allegro/ETDS_PCB_V1_3.brd'
+Output design = ''
+Reset symbol text and size locations = 'YES'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/CADENCE/SPB_16.6/share/local/pcb/symbols 
+           C:/CADENCE/SPB_16.6/share/PCB/pcb_lib/symbols 
+           C:/CADENCE/SPB_16.6/share/PCB/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/CADENCE/SPB_16.6/share/local/pcb/padstacks 
+           C:/CADENCE/SPB_16.6/share/PCB/pcb_lib/symbols 
+           C:/CADENCE/SPB_16.6/share/PCB/allegrolib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'PAD65CIR35D_TH'  pad stack refresh starting.
+
+     'PAD65CIR35D_TH'  pad stack refreshed successfully.
+     
+'SMD39REC39'  pad stack refresh starting.
+
+     'SMD39REC39'  pad stack refreshed successfully.
+     
+'SMD57RECT51'  pad stack refresh starting.
+
+     'SMD57RECT51'  pad stack refreshed successfully.
+     
+'SMD74SQUARE'  pad stack refresh starting.
+
+     'SMD74SQUARE'  pad stack refreshed successfully.
+     
+'SMD20REC58'  pad stack refresh starting.
+
+     'SMD20REC58'  pad stack refreshed successfully.
+     
+'SMD40REC12'  pad stack refresh starting.
+
+     'SMD40REC12'  pad stack refreshed successfully.
+     
+'SMD15REC11'  pad stack refresh starting.
+
+     'SMD15REC11'  pad stack refreshed successfully.
+     
+'SMD28REC28'  pad stack refresh starting.
+
+     'SMD28REC28'  pad stack refreshed successfully.
+     
+'SMD16REC32'  pad stack refresh starting.
+
+     'SMD16REC32'  pad stack refreshed successfully.
+     
+'SMD35REC35'  pad stack refresh starting.
+
+     'SMD35REC35'  pad stack refreshed successfully.
+     
+'SMD20REC20'  pad stack refresh starting.
+
+     'SMD20REC20'  pad stack refreshed successfully.
+     
+'SMD30REC30'  pad stack refresh starting.
+
+     'SMD30REC30'  pad stack refreshed successfully.
+     
+'SMD12REC7'  pad stack refresh starting.
+
+     'SMD12REC7'  pad stack refreshed successfully.
+     
+'SMD18REC9'  pad stack refresh starting.
+
+     'SMD18REC9'  pad stack refreshed successfully.
+     
+'SMD54REC18'  pad stack refresh starting.
+
+     'SMD54REC18'  pad stack refreshed successfully.
+     
+'SMD100REC32'  pad stack refresh starting.
+
+     'SMD100REC32'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-253): Unable to find pad stack, 'VIA_TH', in directory search path.
+
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-253): Unable to find pad stack, 'VIA_T', in directory search path.
+
+WARNING(SPMHNI-253): Unable to find pad stack, 'VIA_M', in directory search path.
+
+'RX173P23Y173P23D0T'  pad stack refresh starting.
+
+     'RX173P23Y173P23D0T'  pad stack refreshed successfully.
+     
+'SMD40REC40'  pad stack refresh starting.
+
+     'SMD40REC40'  pad stack refreshed successfully.
+     
+'SMD12REC12'  pad stack refresh starting.
+
+     'SMD12REC12'  pad stack refreshed successfully.
+     
+'SMD25REC49'  pad stack refresh starting.
+
+     'SMD25REC49'  pad stack refreshed successfully.
+     
+'SMD16REC36'  pad stack refresh starting.
+
+     'SMD16REC36'  pad stack refreshed successfully.
+     
+'SMD138REC39'  pad stack refresh starting.
+
+     'SMD138REC39'  pad stack refreshed successfully.
+     
+'SMD32REC40'  pad stack refresh starting.
+Mon Aug 24 10:41:50 2015				Page     2
+
+
+
+     'SMD32REC40'  pad stack refreshed successfully.
+     
+'SMD16REC25'  pad stack refresh starting.
+
+     'SMD16REC25'  pad stack refreshed successfully.
+     
+'SMD67REC41'  pad stack refresh starting.
+
+     'SMD67REC41'  pad stack refreshed successfully.
+     
+'SMD150REC20'  pad stack refresh starting.
+
+     'SMD150REC20'  pad stack refreshed successfully.
+     
+'SMD50REC50'  pad stack refresh starting.
+
+     'SMD50REC50'  pad stack refreshed successfully.
+     
+'SMD50REC10'  pad stack refresh starting.
+
+     'SMD50REC10'  pad stack refreshed successfully.
+     
+'SMD100REC100'  pad stack refresh starting.
+
+     'SMD100REC100'  pad stack refreshed successfully.
+     
+'SMD19REC19'  pad stack refresh starting.
+
+     'SMD19REC19'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.

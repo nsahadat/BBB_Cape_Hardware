@@ -1,0 +1,19 @@
+\t (00:00:03) allegro 16.6-2015 S056 (v16-6-112EK) Windows 32
+\t (00:00:03)     Journal start - Mon Apr 17 11:16:06 2017
+\t (00:00:03)         Host=TS418-17 User=msahadat3 Pid=11932 CPUs=4
+\t (00:00:03) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: C:/Users/msahadat3/Dropbox/GATech/BBB_CAPE/allegro/BBB_CAPE_PCB_AN_V_1_1.brd
+\i (00:00:06) trapsize 1935
+\i (00:00:06) trapsize 1898
+\i (00:00:06) trapsize 1941
+\i (00:00:06) trapsize 1630
+\i (00:00:06) trapsize 1630
+\i (00:00:06) generaledit 
+\i (00:00:11) open 
+\i (00:00:29) fillin "C:\Users\msahadat3\Dropbox\GATech\eTDS_PCB\allegro\ETDS_PCB_V1_6.brd"
+\i (00:00:29) cd "C:\Users\msahadat3\Dropbox\GATech\eTDS_PCB\allegro"
+\t (00:00:29) Opening existing design...
+\i (00:00:29) trapsize 435
+\t (00:00:29)     Journal end - Mon Apr 17 11:16:32 2017

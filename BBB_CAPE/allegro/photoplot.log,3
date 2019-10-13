@@ -1,0 +1,379 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : BBB_CAPE_PCB_AN_V_1_1.brd                     )
+(    Software Version : 16.6-2015S056                                 )
+(    Date/Time        : Tue May 17 18:43:49 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (2).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.03500                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05400                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+  RECTANGLE  0.01600     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.01900     x 0.01900       0.000 NO     DARK 
+  RECTANGLE  0.01900     x 0.01900      90.000 NO     DARK 
+  RECTANGLE  0.02000     x 0.02000       0.000 NO     DARK 
+  RECTANGLE  0.02900     x 0.09300       0.000 NO     DARK 
+  RECTANGLE  0.03000     x 0.03000      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.03500     x 0.03500       0.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000       0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.01000       0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.01000      90.000 NO     DARK 
+  RECTANGLE  0.05800     x 0.01400      90.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.13780       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.15748       0.000 NO     DARK 
+  RECTANGLE  0.07000     x 0.07000       0.000 NO     DARK 
+  RECTANGLE  0.12800     x 0.19800      90.000 NO     DARK 
+  RECTANGLE  0.15748     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.41000     x 0.40600       0.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.03600                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  RECTANGLE  0.05906     x 0.13780       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.15748       0.000 NO     DARK 
+  RECTANGLE  0.15748     x 0.05906       0.000 NO     DARK 
+
+     GND created with warnings
+
+
+================================================================
+     PROCESSING FILM < MID >
+     TO FILE < C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/MID.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.03600                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  RECTANGLE  0.05906     x 0.13780       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.15748       0.000 NO     DARK 
+  RECTANGLE  0.15748     x 0.05906       0.000 NO     DARK 
+
+     MID created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.05400                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+  RECTANGLE  0.01600     x 0.03600      90.000 NO     DARK 
+  RECTANGLE  0.01900     x 0.01900       0.000 NO     DARK 
+  RECTANGLE  0.01900     x 0.01900      90.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.13780       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.15748       0.000 NO     DARK 
+  RECTANGLE  0.15748     x 0.05906       0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04500                                  DARK 
+  CIRCLE     0.07400                                  DARK 
+  CIRCLE     0.08000                                  DARK 
+  RECTANGLE  0.02100     x 0.03700       0.000 NO     DARK 
+  RECTANGLE  0.02400     x 0.02400       0.000 NO     DARK 
+  RECTANGLE  0.02400     x 0.02400      90.000 NO     DARK 
+  RECTANGLE  0.02900     x 0.09300       0.000 NO     DARK 
+  RECTANGLE  0.03500     x 0.03500      90.000 NO     DARK 
+  RECTANGLE  0.03600     x 0.04500      90.000 NO     DARK 
+  RECTANGLE  0.04500     x 0.04500       0.000 NO     DARK 
+  RECTANGLE  0.05500     x 0.01500       0.000 NO     DARK 
+  RECTANGLE  0.05500     x 0.01500      90.000 NO     DARK 
+  RECTANGLE  0.06600     x 0.02000      90.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.14567       0.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.16535       0.000 NO     DARK 
+  RECTANGLE  0.07500     x 0.07500       0.000 NO     DARK 
+  RECTANGLE  0.12800     x 0.19800      90.000 NO     DARK 
+  RECTANGLE  0.16535     x 0.06693       0.000 NO     DARK 
+  RECTANGLE  0.41000     x 0.40600       0.000 NO     DARK 
+
+     SOLDERMASK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04500                                  DARK 
+  CIRCLE     0.07400                                  DARK 
+  CIRCLE     0.08000                                  DARK 
+  RECTANGLE  0.02100     x 0.04100      90.000 NO     DARK 
+  RECTANGLE  0.02400     x 0.02400       0.000 NO     DARK 
+  RECTANGLE  0.02400     x 0.02400      90.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.14567       0.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.16535       0.000 NO     DARK 
+  RECTANGLE  0.16535     x 0.06693       0.000 NO     DARK 
+
+     SOLDERMASK_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (6176.00 16553.00)
+           ... using undefined line width of 5.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 5.00
+
+    WARNING: 0 width line found at (7874.50 16918.50)
+           ... using undefined line width of 5.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+
+     SILKSCREEN_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+
+     SILKSCREEN_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < PHOTOPLOT_OUTLINE >
+     TO FILE < C:/USERS/MSAHADAT3/DROPBOX/GATECH/BBB_CAPE/allegro/PHOTOPLOT_OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+
+     PHOTOPLOT_OUTLINE created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        GND created with warnings
+        MID created with warnings
+        BOTTOM created with warnings
+        SOLDERMASK_TOP created with warnings
+        SOLDERMASK_BOTTOM created with warnings
+        SILKSCREEN_TOP created with warnings
+        SILKSCREEN_BOTTOM created with warnings
+        PHOTOPLOT_OUTLINE created with warnings
+
+ ARTWORK had warnings

@@ -1,0 +1,20 @@
+Spec:
+Number of layer : 4
+Layer stack: Top --> GND --> VCC --> Bottom
+Trace width (min) : 5 mils
+Number of board assembly : 25
+
+special instruction:
+please solder H8, H13 and H9 in the bottom layer. For H8 and H13 shorter height needs to be soldered and longer height will be exposed for connection.
+
+
+
+Shipping address:
+Maysam Ghovanloo
+85 5th street NW
+TSRB Room 422
+Atlanta
+GA 30308
+USA 
+
+Type of shipping: normal

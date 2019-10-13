@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : BBB_SIMULATION.brd                            )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Jul 24 17:36:02 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 2
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (7335.03 17311.66)  Net: GND
+	Point on shape: (7360.01 17665.52)  Net: GND

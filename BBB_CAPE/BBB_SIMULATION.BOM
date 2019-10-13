@@ -1,0 +1,43 @@
+  Revised: Tuesday, July 22, 2014
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials           July 22,2014      19:54:23	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	2	C1,C41	10uF
+2	2	C2,C4	0.022uF
+3	1	C3	100uF
+4	2	C11,C12	1uF
+5	2	C13,C14	22pF
+6	1	C38	5.6pF
+7	1	C40	1nF
+8	1	C42	0.1uF
+9	1	C45	100nF
+10	1	H1	Header1X1
+11	1	J2	CON5
+12	1	L1	10nH
+13	1	L2	BEAD
+14	1	RENB	11.8k
+15	1	RENT	68.1k
+16	1	R2	100k
+17	1	R3	5.62k
+18	1	R4	1.07k
+19	1	R5	56k
+20	1	R44	2.7k
+21	8	R49,R50,R51,R52,R53,R54,	0
+		R55,R56
+22	1	U1	DB9
+23	1	U6	PJack
+24	1	U7A	1
+25	1	U8	BD2425N50ATI
+26	2	U9,U10	connect22x2
+27	3	U11,U12,U13	Value
+28	1	Y1	26MHz

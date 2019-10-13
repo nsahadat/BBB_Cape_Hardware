@@ -1,0 +1,90 @@
+\t (00:01:39) allegro 16.6-2015 S056 (v16-6-112EK) Windows 32
+\t (00:01:39)     Journal start - Tue May 17 19:42:14 2016
+\t (00:01:39)         Host=TS418-17 User=msahadat3 Pid=4680 CPUs=4
+\t (00:01:39) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:01:39) 
+\d (00:01:39) Design opened: C:/Users/msahadat3/Dropbox/GATech/BBB_CAPE/connect22X2.dra
+\i (00:01:39) generaledit 
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 1336.4706 383.8109
+\t (00:01:40) Grids are drawn 16.0000, 16.0000 apart for enhanced viewability.
+\i (00:01:40) trapsize 142100
+\i (00:01:41) zoom in 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom in -125.7417 1497.8774
+\t (00:01:41) Grids are drawn 8.0000, 8.0000 apart for enhanced viewability.
+\i (00:01:41) trapsize 71050
+\i (00:01:41) zoom in 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom in -172.6348 1472.2994
+\t (00:01:41) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:01:41) trapsize 35525
+\i (00:01:42) zoom in 1 
+\i (00:01:42) setwindow pcb
+\i (00:01:42) zoom in 37.6737 1333.7516
+\t (00:01:42) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:01:42) trapsize 17763
+\i (00:01:42) zoom in 1 
+\i (00:01:42) setwindow pcb
+\i (00:01:42) zoom in 37.6737 1333.7516
+\i (00:01:42) trapsize 8881
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out 46.5550 1330.0215
+\i (00:01:43) trapsize 17763
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out 46.5550 1330.0216
+\t (00:01:43) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:01:43) trapsize 35525
+\i (00:01:44) zoom out 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom out 46.5551 1330.0215
+\t (00:01:44) Grids are drawn 8.0000, 8.0000 apart for enhanced viewability.
+\i (00:01:44) trapsize 71050
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out 337.5052 1503.3839
+\t (00:01:45) Grids are drawn 16.0000, 16.0000 apart for enhanced viewability.
+\i (00:01:45) trapsize 142100
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out 942.8524 1500.5418
+\t (00:01:45) Grids are drawn 32.0000, 32.0000 apart for enhanced viewability.
+\i (00:01:45) trapsize 284201
+\i (00:01:46) zoom in 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom in -20.5875 2188.3072
+\t (00:01:46) Grids are drawn 16.0000, 16.0000 apart for enhanced viewability.
+\i (00:01:46) trapsize 142100
+\i (00:01:46) zoom in 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom in -142.7938 2191.1492
+\t (00:01:46) Grids are drawn 8.0000, 8.0000 apart for enhanced viewability.
+\i (00:01:46) trapsize 71050
+\i (00:01:46) zoom in 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom in -198.2129 2191.1492
+\t (00:01:46) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:01:46) trapsize 35525
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in -132.1362 2161.3082
+\t (00:01:47) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:01:47) trapsize 17763
+\i (00:01:58) padeditlib 
+\i (00:02:21) fillin "Pad65cir42d"
+\i (00:02:48) setwindow form.padedit
+\i (00:02:48) FORM padedit layers  
+\i (00:02:56) FORM padedit parameters  
+\i (00:03:19) FORM padedit layers  
+\i (00:03:45) FORM padedit crossbox YES 
+\i (00:03:46) FORM padedit stackbox YES 
+\i (00:03:50) pse_exit
+\i (00:03:51) fillin "menu_cancel"
+\i (00:03:55) fillin yes 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) generaledit 
+\i (00:03:58) exit 
+\t (00:03:58)     Journal end - Tue May 17 19:44:33 2016

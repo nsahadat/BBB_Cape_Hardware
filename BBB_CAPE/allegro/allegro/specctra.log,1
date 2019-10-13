@@ -1,0 +1,2098 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Fri Jun 20 18:32:15 2014
+# 
+# Allegro PCB Router v16-6-112 made 2012/09/12 at 23:00:45
+# Running on: ts422-02, OS Version: WindowsNT 6.1.7601, Architecture: Intel Pentium
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro/specctra.did
+# Current time = Fri Jun 20 18:32:17 2014
+# PCB C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=7898.7000 ylo=16540.2000 xhi=8631.3000 yhi=17032.4000
+# Total 24 Images Consolidated.
+# Via VIA z=1, 2 xlo=-12.0000 ylo=-12.0000 xhi= 12.0000 yhi= 12.0000
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# <<WARNING:>> Place: Pin 9 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Place: Pin 8 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Place: Pin 7 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Place: Pin 6 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Place: Pin 5 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Place: Pin 4 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Place: Pin 3 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Place: Pin 2 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Place: Pin 10 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Place: Pin 1 of logical_part CON5_0_H5X2_CON5 can not be found in component J2.
+# <<WARNING:>> Net N11094487 Component J2 Pin 3 is missing in Image '_-_H5X2'
+# <<ERROR:>> Pin J2-3 not found in net N11094487
+# <<WARNING:>> Net N11094491 Component J2 Pin 4 is missing in Image '_-_H5X2'
+# <<ERROR:>> Pin J2-4 not found in net N11094491
+# <<WARNING:>> Net N11094475 Component J2 Pin 7 is missing in Image '_-_H5X2'
+# <<ERROR:>> Pin J2-7 not found in net N11094475
+# <<WARNING:>> Net 0 Component J2 Pin 1 is missing in Image '_-_H5X2'
+# <<ERROR:>> Pin J2-1 not found in net 0
+# <<WARNING:>> Net VCC3V Component J2 Pin 2 is missing in Image '_-_H5X2'
+# <<ERROR:>> Pin J2-2 not found in net VCC3V
+# <<WARNING:>> Net VCC3V Component J2 Pin 9 is missing in Image '_-_H5X2'
+# <<ERROR:>> Pin J2-9 not found in net VCC3V
+# Wires Processed 0, Vias Processed 0
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 36, Images Processed 52, Padstacks Processed 14
+# Nets Processed 35, Net Terminals 113
+# PCB Area=285048.000  EIC=9  Area/EIC=31672.000  SMDs=35
+# Total Pin Count: 132
+# Signal Connections Created 78
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 78
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 13793.8600 Horizontal 8394.4300 Vertical 5399.4300
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 13793.8600 Horizontal 8233.6300 Vertical 5560.2300
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:03
+# Loading Do File pasde.do ...
+# Loading Do File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/MSAHAD~1/AppData/Local/Temp/#Taaaaar05216.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint on (side Both) ) (auto_miter off)
+# Smart Route: Executing bus diagonal.
+# Diagonal wire corners are preferred.
+# Current time = Fri Jun 20 18:33:37 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 78
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 13793.8600 Horizontal 8394.4300 Vertical 5399.4300
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 13793.8600 Horizontal 8233.6300 Vertical 5560.2300
+# Attempts 17 Successes 3 Failures 14 Vias 0
+# 90 degree wire corners are preferred.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 75
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    3.85
+# Manhattan Length 13793.8600 Horizontal 8394.4300 Vertical 5399.4300
+# Routed Length 402.0000 Horizontal 399.0000 Vertical   3.0000
+# Ratio Actual / Manhattan   0.0291
+# Unconnected Length 13391.8600 Horizontal 7834.6300 Vertical 5557.2300
+# <<WARNING:>> Smart Route: 82.35 percent of bus attempts failed.
+# 90 degree wire corners are preferred.
+# Smart Route: Executing 25 route passes.
+# Current time = Fri Jun 20 18:33:37 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 75
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    3.85
+# Manhattan Length 13793.8600 Horizontal 8394.4300 Vertical 5399.4300
+# Routed Length 402.0000 Horizontal 399.0000 Vertical   3.0000
+# Ratio Actual / Manhattan   0.0291
+# Unconnected Length 13391.8600 Horizontal 7834.6300 Vertical 5557.2300
+# Start Route Pass 1 of 25
+# Routing 75 wires.
+# 9 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 67 (Cross: 52, Clear: 15, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 8
+# Attempts 75 Successes 67 Failures 8 Vias 18
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 1 of 25
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 1 passes.
+# Start Route Pass 2 of 25
+# Routing 110 wires.
+# 8 bend points have been removed.
+# 2 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 111 (Cross: 74, Clear: 37, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 92 Successes 87 Failures 5 Vias 18
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Conflict Reduction -0.6567
+# End Pass 2 of 25
+# <<WARNING:>> Smart Route: Conflict reduction rate 0 is very low 
+# after 2 passes. 
+# Design may not reach 100%. 
+# Check number of layers, grids and design rules.
+# Start Route Pass 3 of 25
+# Routing 112 wires.
+# Total Conflicts: 68 (Cross: 49, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 93 Successes 84 Failures 9 Vias 19
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Conflict Reduction  0.3874
+# End Pass 3 of 25
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# <<WARNING:>> Smart Route: Average reduction ratio only 19 after 3 passes. 
+# Design may converge very slowly. 
+# Monitor status file carefully.
+# Start Route Pass 4 of 25
+# Routing 117 wires.
+# 5 bend points have been removed.
+# 0 bend points have been removed.
+# 6 bend points have been removed.
+# Total Conflicts: 90 (Cross: 63, Clear: 27, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 95 Successes 87 Failures 8 Vias 22
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Conflict Reduction -0.3235
+# End Pass 4 of 25
+# <<WARNING:>> Smart Route: Average reduction ratio only 13 after 4 passes. 
+# Design may converge very slowly. 
+# Monitor status file carefully.
+# Start Route Pass 5 of 25
+# Routing 118 wires.
+# 9 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 91 (Cross: 68, Clear: 23, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 97 Successes 88 Failures 9 Vias 21
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Conflict Reduction -0.0111
+# End Pass 5 of 25
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# <<WARNING:>> Smart Route: Average reduction ratio only 10 after 5 passes. 
+# Design may converge very slowly. 
+# Monitor status file carefully.
+# Start Route Pass 6 of 25
+# Routing 83 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 72 (Cross: 53, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 65 Successes 56 Failures 9 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 6 of 25
+# Smart Route: Smart_route progressing normally after 6 passes.
+# Start Route Pass 7 of 25
+# Routing 81 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 77 (Cross: 46, Clear: 31, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 68 Successes 59 Failures 9 Vias 22
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 7 of 25
+# Smart Route: Smart_route progressing normally after 7 passes.
+# Start Route Pass 8 of 25
+# Routing 88 wires.
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 6 bend points have been removed.
+# Total Conflicts: 50 (Cross: 42, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 76 Successes 68 Failures 8 Vias 23
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 8 of 25
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 8 passes.
+# Start Route Pass 9 of 25
+# Routing 69 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 60 (Cross: 42, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 59 Successes 50 Failures 9 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 9 of 25
+# Smart Route: Smart_route progressing normally after 9 passes.
+# Start Route Pass 10 of 25
+# Routing 84 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 37 (Cross: 32, Clear: 5, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 67 Successes 58 Failures 9 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 10 of 25
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 10 passes.
+# Start Route Pass 11 of 25
+# Routing 68 wires.
+# Total Conflicts: 37 (Cross: 30, Clear: 7, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 55 Successes 49 Failures 6 Vias 25
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 11 of 25
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 11 passes.
+# Start Route Pass 12 of 25
+# Routing 77 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 53 (Cross: 39, Clear: 14, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 62 Successes 57 Failures 5 Vias 25
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 12 of 25
+# Smart Route: Smart_route progressing normally after 12 passes.
+# Start Route Pass 13 of 25
+# Routing 69 wires.
+# Total Conflicts: 50 (Cross: 38, Clear: 12, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 56 Successes 49 Failures 7 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 13 of 25
+# Smart Route: Smart_route progressing normally after 13 passes.
+# Start Route Pass 14 of 25
+# Routing 95 wires.
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 42 (Cross: 35, Clear: 7, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 74 Successes 69 Failures 5 Vias 24
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 14 of 25
+# Smart Route: Smart_route progressing normally after 14 passes.
+# Start Route Pass 15 of 25
+# Routing 64 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 43 (Cross: 37, Clear: 6, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 50 Successes 46 Failures 4 Vias 23
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 15 of 25
+# Smart Route: Smart_route progressing normally after 15 passes.
+# Start Route Pass 16 of 25
+# Routing 81 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 43 (Cross: 36, Clear: 7, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 66 Successes 62 Failures 4 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 16 of 25
+# Smart Route: Smart_route progressing normally after 16 passes.
+# Start Route Pass 17 of 25
+# Routing 61 wires.
+# Total Conflicts: 63 (Cross: 47, Clear: 16, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 50 Successes 28 Failures 22 Vias 23
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 17 of 25
+# Smart Route: Smart_route progressing normally after 17 passes.
+# Start Route Pass 18 of 25
+# Routing 95 wires.
+# Total Conflicts: 41 (Cross: 33, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 69 Successes 60 Failures 9 Vias 22
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 18 of 25
+# Smart Route: Smart_route progressing normally after 18 passes.
+# Start Route Pass 19 of 25
+# Routing 64 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 8 bend points have been removed.
+# Total Conflicts: 41 (Cross: 32, Clear: 9, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 5
+# Attempts 51 Successes 45 Failures 6 Vias 22
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 19 of 25
+# Smart Route: Smart_route progressing normally after 19 passes.
+# Start Route Pass 20 of 25
+# Routing 71 wires.
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 52 (Cross: 33, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 63 Successes 56 Failures 7 Vias 25
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 20 of 25
+# Smart Route: Smart_route progressing normally after 20 passes.
+# Start Route Pass 21 of 25
+# Routing 64 wires.
+# 4 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 50 (Cross: 38, Clear: 12, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 57 Successes 49 Failures 8 Vias 24
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 21 of 25
+# Smart Route: Smart_route progressing normally after 21 passes.
+# Start Route Pass 22 of 25
+# Routing 88 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 50 (Cross: 33, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 74 Successes 67 Failures 7 Vias 23
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 22 of 25
+# Smart Route: Smart_route progressing normally after 22 passes.
+# Start Route Pass 23 of 25
+# Routing 61 wires.
+# 6 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 58 (Cross: 36, Clear: 22, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 54 Successes 50 Failures 4 Vias 28
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 23 of 25
+# Smart Route: Smart_route progressing normally after 23 passes.
+# Start Route Pass 24 of 25
+# Routing 97 wires.
+# Total Conflicts: 23 (Cross: 15, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 80 Successes 72 Failures 8 Vias 26
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 24 of 25
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 24 passes.
+# Start Route Pass 25 of 25
+# Routing 50 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 18 (Cross: 15, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 42 Successes 36 Failures 6 Vias 26
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 25 of 25
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 25 passes.
+# Cpu Time = 0:00:18  Elapsed Time = 0:00:14
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:15
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 27, at vias 6 Total Vias 26
+# Percent Connected   62.82
+# Manhattan Length 14911.7100 Horizontal 9013.9480 Vertical 5897.7620
+# Routed Length 16556.3900 Horizontal 9195.3000 Vertical 7361.0900
+# Ratio Actual / Manhattan   1.1103
+# Unconnected Length 1317.4100 Horizontal 932.2900 Vertical 385.1200
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Jun 20 18:33:51 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 27, at vias 6 Total Vias 26
+# Percent Connected   62.82
+# Manhattan Length 14911.7100 Horizontal 9013.9480 Vertical 5897.7620
+# Routed Length 16556.3900 Horizontal 9195.3000 Vertical 7361.0900
+# Ratio Actual / Manhattan   1.1103
+# Unconnected Length 1317.4100 Horizontal 932.2900 Vertical 385.1200
+# Start Clean Pass 1 of 2
+# Routing 123 wires.
+# Total Conflicts: 18 (Cross: 15, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 102 Successes 71 Failures 31 Vias 26
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 128 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 18 (Cross: 15, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 105 Successes 75 Failures 30 Vias 26
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 2 of 2
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:16
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 32, at vias 5 Total Vias 26
+# Percent Connected   62.82
+# Manhattan Length 14887.2300 Horizontal 8971.0400 Vertical 5916.1900
+# Routed Length 16556.3700 Horizontal 9242.7400 Vertical 7313.6300
+# Ratio Actual / Manhattan   1.1121
+# Unconnected Length 1317.4100 Horizontal 932.2900 Vertical 385.1200
+# Smart Route: Executing 50 route passes.
+# Current time = Fri Jun 20 18:33:53 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 32, at vias 5 Total Vias 26
+# Percent Connected   62.82
+# Manhattan Length 14887.2300 Horizontal 8971.0400 Vertical 5916.1900
+# Routed Length 16556.3700 Horizontal 9242.7400 Vertical 7313.6300
+# Ratio Actual / Manhattan   1.1121
+# Unconnected Length 1317.4100 Horizontal 932.2900 Vertical 385.1200
+# Start Route Pass 1 of 50
+# Routing 47 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 19 (Cross: 14, Clear: 5, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 43 Successes 38 Failures 5 Vias 26
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 50
+# Smart Route: Smart_route progressing normally after 26 passes.
+# Start Route Pass 2 of 50
+# Routing 73 wires.
+# 5 bend points have been removed.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 39 (Cross: 24, Clear: 15, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 62 Successes 50 Failures 12 Vias 30
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 50
+# Smart Route: Smart_route progressing normally after 27 passes.
+# Start Route Pass 3 of 50
+# Routing 73 wires.
+# 4 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 39 (Cross: 33, Clear: 6, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 56 Successes 47 Failures 9 Vias 27
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 3 of 50
+# Smart Route: Smart_route progressing normally after 28 passes.
+# Start Route Pass 4 of 50
+# Routing 85 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 35 (Cross: 32, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 67 Successes 47 Failures 20 Vias 26
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 4 of 50
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:18
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 4 Total Vias 26
+# Percent Connected   55.13
+# Manhattan Length 15002.3300 Horizontal 8989.1640 Vertical 6013.1660
+# Routed Length 17929.8300 Horizontal 9727.3000 Vertical 8202.5300
+# Ratio Actual / Manhattan   1.1951
+# Unconnected Length 712.3200 Horizontal 455.2000 Vertical 257.1200
+# <<WARNING:>> Smart Route: No real conflict reduction achieved in previous 5 passes. 
+# Automatically forcing convergence.
+# Current time = Fri Jun 20 18:33:56 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 2
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 4 Total Vias 26
+# Percent Connected   55.13
+# Manhattan Length 15002.3300 Horizontal 8989.1640 Vertical 6013.1660
+# Routed Length 17929.8300 Horizontal 9727.3000 Vertical 8202.5300
+# Ratio Actual / Manhattan   1.1951
+# Unconnected Length 712.3200 Horizontal 455.2000 Vertical 257.1200
+# Start Route Pass 1 of 5
+# Routing 65 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 4 bend points have been removed.
+# Total Conflicts: 41 (Cross: 30, Clear: 11, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 53 Successes 49 Failures 4 Vias 25
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 1 of 5
+# Start Route Pass 2 of 5
+# Routing 82 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 73 (Cross: 37, Clear: 36, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 67 Successes 50 Failures 17 Vias 26
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 80 wires.
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 6 bend points have been removed.
+# Total Conflicts: 51 (Cross: 32, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 62 Successes 54 Failures 8 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 89 wires.
+# Total Conflicts: 16 (Cross: 14, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 5
+# Attempts 78 Successes 70 Failures 8 Vias 22
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 4 of 5
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Start Route Pass 5 of 5
+# Routing 48 wires.
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 19 (Cross: 13, Clear: 6, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 46 Successes 39 Failures 7 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 5 of 5
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Route    | 32|    30|    11|   4|    2|   25|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 33|    37|    36|  17|    3|   26|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 34|    32|    19|   8|    3|   24|    0|   0| 30|  0:00:00|  0:00:20|
+# Route    | 35|    14|     2|   8|    5|   22|    0|   0| 68|  0:00:01|  0:00:21|
+# Route    | 36|    13|     6|   7|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:21
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 27, at vias 4 Total Vias 23
+# Percent Connected   62.82
+# Manhattan Length 15163.3100 Horizontal 9138.6550 Vertical 6024.6550
+# Routed Length 16997.2100 Horizontal 9387.6900 Vertical 7609.5200
+# Ratio Actual / Manhattan   1.1209
+# Unconnected Length 1352.0900 Horizontal 940.0900 Vertical 412.0000
+# Current time = Fri Jun 20 18:33:58 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 27, at vias 4 Total Vias 23
+# Percent Connected   62.82
+# Manhattan Length 15163.3100 Horizontal 9138.6550 Vertical 6024.6550
+# Routed Length 16997.2100 Horizontal 9387.6900 Vertical 7609.5200
+# Ratio Actual / Manhattan   1.1209
+# Unconnected Length 1352.0900 Horizontal 940.0900 Vertical 412.0000
+# Start Route Pass 1 of 5
+# Routing 58 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 26 (Cross: 17, Clear: 9, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 51 Successes 41 Failures 10 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 5
+# Start Route Pass 2 of 5
+# Routing 87 wires.
+# 4 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 80 (Cross: 47, Clear: 33, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 2
+# Attempts 72 Successes 55 Failures 17 Vias 26
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 75 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 22 (Cross: 12, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 60 Successes 50 Failures 10 Vias 24
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 85 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 43 (Cross: 30, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 69 Successes 53 Failures 16 Vias 23
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 76 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 17 (Cross: 10, Clear: 7, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 59 Successes 48 Failures 11 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 5 of 5
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:03
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Route    | 32|    30|    11|   4|    2|   25|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 33|    37|    36|  17|    3|   26|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 34|    32|    19|   8|    3|   24|    0|   0| 30|  0:00:00|  0:00:20|
+# Route    | 35|    14|     2|   8|    5|   22|    0|   0| 68|  0:00:01|  0:00:21|
+# Route    | 36|    13|     6|   7|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 37|    17|     9|  10|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 38|    47|    33|  17|    2|   26|    0|   0|  0|  0:00:01|  0:00:22|
+# Route    | 39|    12|    10|  10|    4|   24|    0|   0| 72|  0:00:01|  0:00:23|
+# Route    | 40|    30|    13|  16|    3|   23|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 41|    10|     7|  11|    4|   24|    0|   0| 60|  0:00:00|  0:00:24|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:24
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 29, at vias 6 Total Vias 24
+# Percent Connected   67.95
+# Manhattan Length 15273.0400 Horizontal 9234.7380 Vertical 6038.3020
+# Routed Length 16321.5600 Horizontal 8789.6600 Vertical 7531.9000
+# Ratio Actual / Manhattan   1.0687
+# Unconnected Length 1661.1600 Horizontal 1250.1000 Vertical 411.0600
+# Current time = Fri Jun 20 18:34:01 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 29, at vias 6 Total Vias 24
+# Percent Connected   67.95
+# Manhattan Length 15273.0400 Horizontal 9234.7380 Vertical 6038.3020
+# Routed Length 16321.5600 Horizontal 8789.6600 Vertical 7531.9000
+# Ratio Actual / Manhattan   1.0687
+# Unconnected Length 1661.1600 Horizontal 1250.1000 Vertical 411.0600
+# Start Route Pass 1 of 5
+# Routing 54 wires.
+# Total Conflicts: 18 (Cross: 10, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 48 Successes 37 Failures 11 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 5
+# Start Route Pass 2 of 5
+# Routing 73 wires.
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 59 (Cross: 32, Clear: 27, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 3
+# Attempts 60 Successes 50 Failures 10 Vias 25
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 56 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 26 (Cross: 13, Clear: 13, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 5
+# Attempts 47 Successes 37 Failures 10 Vias 24
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 69 wires.
+# 5 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 36 (Cross: 25, Clear: 11, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 5
+# Attempts 61 Successes 43 Failures 18 Vias 27
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 55 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 26 (Cross: 17, Clear: 9, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 5
+# Attempts 45 Successes 34 Failures 11 Vias 24
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 5 of 5
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:03
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Route    | 32|    30|    11|   4|    2|   25|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 33|    37|    36|  17|    3|   26|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 34|    32|    19|   8|    3|   24|    0|   0| 30|  0:00:00|  0:00:20|
+# Route    | 35|    14|     2|   8|    5|   22|    0|   0| 68|  0:00:01|  0:00:21|
+# Route    | 36|    13|     6|   7|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 37|    17|     9|  10|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 38|    47|    33|  17|    2|   26|    0|   0|  0|  0:00:01|  0:00:22|
+# Route    | 39|    12|    10|  10|    4|   24|    0|   0| 72|  0:00:01|  0:00:23|
+# Route    | 40|    30|    13|  16|    3|   23|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 41|    10|     7|  11|    4|   24|    0|   0| 60|  0:00:00|  0:00:24|
+# Route    | 42|    10|     8|  11|    4|   24|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 43|    32|    27|  10|    3|   25|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 44|    13|    13|  10|    5|   24|    0|   0| 55|  0:00:01|  0:00:25|
+# Route    | 45|    25|    11|  18|    5|   27|    0|   0|  0|  0:00:00|  0:00:25|
+# Route    | 46|    17|     9|  11|    5|   24|    0|   0| 27|  0:00:01|  0:00:26|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:26
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 5
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 29, at vias 5 Total Vias 24
+# Percent Connected   69.23
+# Manhattan Length 15306.5200 Horizontal 9223.1420 Vertical 6083.3780
+# Routed Length 16799.3800 Horizontal 8796.3000 Vertical 8003.0800
+# Ratio Actual / Manhattan   1.0975
+# Unconnected Length 2112.1300 Horizontal 1590.1000 Vertical 522.0300
+# Current time = Fri Jun 20 18:34:05 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 5
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 29, at vias 5 Total Vias 24
+# Percent Connected   69.23
+# Manhattan Length 15306.5200 Horizontal 9223.1420 Vertical 6083.3780
+# Routed Length 16799.3800 Horizontal 8796.3000 Vertical 8003.0800
+# Ratio Actual / Manhattan   1.0975
+# Unconnected Length 2112.1300 Horizontal 1590.1000 Vertical 522.0300
+# Start Route Pass 1 of 5
+# Routing 43 wires.
+# Total Conflicts: 19 (Cross: 9, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 6
+# Attempts 38 Successes 28 Failures 10 Vias 25
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 5
+# Start Route Pass 2 of 5
+# Routing 61 wires.
+# 4 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 37 (Cross: 19, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 45 Successes 38 Failures 7 Vias 31
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 52 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 32 (Cross: 14, Clear: 18, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 5
+# Attempts 44 Successes 34 Failures 10 Vias 27
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 55 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 30 (Cross: 20, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 5
+# Attempts 46 Successes 36 Failures 10 Vias 24
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 49 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 31 (Cross: 17, Clear: 14, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 4
+# Attempts 43 Successes 37 Failures 6 Vias 25
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 5 of 5
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:03
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Route    | 32|    30|    11|   4|    2|   25|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 33|    37|    36|  17|    3|   26|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 34|    32|    19|   8|    3|   24|    0|   0| 30|  0:00:00|  0:00:20|
+# Route    | 35|    14|     2|   8|    5|   22|    0|   0| 68|  0:00:01|  0:00:21|
+# Route    | 36|    13|     6|   7|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 37|    17|     9|  10|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 38|    47|    33|  17|    2|   26|    0|   0|  0|  0:00:01|  0:00:22|
+# Route    | 39|    12|    10|  10|    4|   24|    0|   0| 72|  0:00:01|  0:00:23|
+# Route    | 40|    30|    13|  16|    3|   23|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 41|    10|     7|  11|    4|   24|    0|   0| 60|  0:00:00|  0:00:24|
+# Route    | 42|    10|     8|  11|    4|   24|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 43|    32|    27|  10|    3|   25|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 44|    13|    13|  10|    5|   24|    0|   0| 55|  0:00:01|  0:00:25|
+# Route    | 45|    25|    11|  18|    5|   27|    0|   0|  0|  0:00:00|  0:00:25|
+# Route    | 46|    17|     9|  11|    5|   24|    0|   0| 27|  0:00:01|  0:00:26|
+# Route    | 47|     9|    10|  10|    6|   25|    0|   0| 26|  0:00:00|  0:00:26|
+# Route    | 48|    19|    18|   7|    4|   31|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 49|    14|    18|  10|    5|   27|    0|   0| 13|  0:00:00|  0:00:27|
+# Route    | 50|    20|    10|  10|    5|   24|    0|   0|  6|  0:00:01|  0:00:28|
+# Route    | 51|    17|    14|   6|    4|   25|    0|   0|  0|  0:00:00|  0:00:28|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:28
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 27, at vias 5 Total Vias 25
+# Percent Connected   61.54
+# Manhattan Length 15001.3400 Horizontal 9097.3660 Vertical 5903.9740
+# Routed Length 15769.2000 Horizontal 8440.3500 Vertical 7328.8500
+# Ratio Actual / Manhattan   1.0512
+# Unconnected Length 1691.4600 Horizontal 1132.7500 Vertical 558.7100
+# Current time = Fri Jun 20 18:34:08 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 27, at vias 5 Total Vias 25
+# Percent Connected   61.54
+# Manhattan Length 15001.3400 Horizontal 9097.3660 Vertical 5903.9740
+# Routed Length 15769.2000 Horizontal 8440.3500 Vertical 7328.8500
+# Ratio Actual / Manhattan   1.0512
+# Unconnected Length 1691.4600 Horizontal 1132.7500 Vertical 558.7100
+# Start Route Pass 1 of 5
+# Routing 47 wires.
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 6 (Cross: 4, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 8
+# Attempts 42 Successes 33 Failures 9 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 5
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Start Route Pass 2 of 5
+# Routing 34 wires.
+# Total Conflicts: 17 (Cross: 9, Clear: 8, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 5
+# Attempts 31 Successes 22 Failures 9 Vias 24
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 39 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 20 (Cross: 8, Clear: 12, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 5
+# Attempts 36 Successes 30 Failures 6 Vias 25
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 51 wires.
+# Total Conflicts: 8 (Cross: 5, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 46 Successes 34 Failures 12 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 4 of 5
+# Wiring Written to File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\bestsave.w
+# Start Route Pass 5 of 5
+# Routing 28 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 20 (Cross: 13, Clear: 7, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 6
+# Attempts 24 Successes 16 Failures 8 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 5 of 5
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:03
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Route    | 32|    30|    11|   4|    2|   25|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 33|    37|    36|  17|    3|   26|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 34|    32|    19|   8|    3|   24|    0|   0| 30|  0:00:00|  0:00:20|
+# Route    | 35|    14|     2|   8|    5|   22|    0|   0| 68|  0:00:01|  0:00:21|
+# Route    | 36|    13|     6|   7|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 37|    17|     9|  10|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 38|    47|    33|  17|    2|   26|    0|   0|  0|  0:00:01|  0:00:22|
+# Route    | 39|    12|    10|  10|    4|   24|    0|   0| 72|  0:00:01|  0:00:23|
+# Route    | 40|    30|    13|  16|    3|   23|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 41|    10|     7|  11|    4|   24|    0|   0| 60|  0:00:00|  0:00:24|
+# Route    | 42|    10|     8|  11|    4|   24|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 43|    32|    27|  10|    3|   25|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 44|    13|    13|  10|    5|   24|    0|   0| 55|  0:00:01|  0:00:25|
+# Route    | 45|    25|    11|  18|    5|   27|    0|   0|  0|  0:00:00|  0:00:25|
+# Route    | 46|    17|     9|  11|    5|   24|    0|   0| 27|  0:00:01|  0:00:26|
+# Route    | 47|     9|    10|  10|    6|   25|    0|   0| 26|  0:00:00|  0:00:26|
+# Route    | 48|    19|    18|   7|    4|   31|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 49|    14|    18|  10|    5|   27|    0|   0| 13|  0:00:00|  0:00:27|
+# Route    | 50|    20|    10|  10|    5|   24|    0|   0|  6|  0:00:01|  0:00:28|
+# Route    | 51|    17|    14|   6|    4|   25|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 52|     4|     2|   9|    8|   24|    0|   0| 80|  0:00:00|  0:00:28|
+# Route    | 53|     9|     8|   9|    5|   24|    0|   0|  0|  0:00:01|  0:00:29|
+# Route    | 54|     8|    12|   6|    5|   25|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 55|     5|     3|  12|    7|   23|    0|   0| 60|  0:00:00|  0:00:29|
+# Route    | 56|    13|     7|   8|    6|   24|    0|   0|  0|  0:00:00|  0:00:29|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:29
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 6
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 25, at vias 5 Total Vias 24
+# Percent Connected   69.23
+# Manhattan Length 15081.3800 Horizontal 9105.5100 Vertical 5975.8700
+# Routed Length 14728.3000 Horizontal 8243.3500 Vertical 6484.9500
+# Ratio Actual / Manhattan   0.9766
+# Unconnected Length 2847.6400 Horizontal 1929.5500 Vertical 918.0900
+# Current time = Fri Jun 20 18:34:11 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 6
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 25, at vias 5 Total Vias 24
+# Percent Connected   69.23
+# Manhattan Length 15081.3800 Horizontal 9105.5100 Vertical 5975.8700
+# Routed Length 14728.3000 Horizontal 8243.3500 Vertical 6484.9500
+# Ratio Actual / Manhattan   0.9766
+# Unconnected Length 2847.6400 Horizontal 1929.5500 Vertical 918.0900
+# Start Route Pass 1 of 5
+# Routing 39 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 6 bend points have been removed.
+# Total Conflicts: 15 (Cross: 6, Clear: 9, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 7
+# Attempts 34 Successes 26 Failures 8 Vias 23
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 1 of 5
+# Start Route Pass 2 of 5
+# Routing 45 wires.
+# Total Conflicts: 12 (Cross: 9, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 9
+# Attempts 40 Successes 29 Failures 11 Vias 24
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 28 wires.
+# 2 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 42 (Cross: 16, Clear: 26, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 6
+# Attempts 25 Successes 18 Failures 7 Vias 26
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 60 wires.
+# Total Conflicts: 29 (Cross: 10, Clear: 19, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 8
+# Attempts 51 Successes 39 Failures 12 Vias 23
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 33 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 6 (Cross: 4, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 10
+# Attempts 30 Successes 19 Failures 11 Vias 20
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 5 of 5
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Route    | 32|    30|    11|   4|    2|   25|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 33|    37|    36|  17|    3|   26|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 34|    32|    19|   8|    3|   24|    0|   0| 30|  0:00:00|  0:00:20|
+# Route    | 35|    14|     2|   8|    5|   22|    0|   0| 68|  0:00:01|  0:00:21|
+# Route    | 36|    13|     6|   7|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 37|    17|     9|  10|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 38|    47|    33|  17|    2|   26|    0|   0|  0|  0:00:01|  0:00:22|
+# Route    | 39|    12|    10|  10|    4|   24|    0|   0| 72|  0:00:01|  0:00:23|
+# Route    | 40|    30|    13|  16|    3|   23|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 41|    10|     7|  11|    4|   24|    0|   0| 60|  0:00:00|  0:00:24|
+# Route    | 42|    10|     8|  11|    4|   24|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 43|    32|    27|  10|    3|   25|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 44|    13|    13|  10|    5|   24|    0|   0| 55|  0:00:01|  0:00:25|
+# Route    | 45|    25|    11|  18|    5|   27|    0|   0|  0|  0:00:00|  0:00:25|
+# Route    | 46|    17|     9|  11|    5|   24|    0|   0| 27|  0:00:01|  0:00:26|
+# Route    | 47|     9|    10|  10|    6|   25|    0|   0| 26|  0:00:00|  0:00:26|
+# Route    | 48|    19|    18|   7|    4|   31|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 49|    14|    18|  10|    5|   27|    0|   0| 13|  0:00:00|  0:00:27|
+# Route    | 50|    20|    10|  10|    5|   24|    0|   0|  6|  0:00:01|  0:00:28|
+# Route    | 51|    17|    14|   6|    4|   25|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 52|     4|     2|   9|    8|   24|    0|   0| 80|  0:00:00|  0:00:28|
+# Route    | 53|     9|     8|   9|    5|   24|    0|   0|  0|  0:00:01|  0:00:29|
+# Route    | 54|     8|    12|   6|    5|   25|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 55|     5|     3|  12|    7|   23|    0|   0| 60|  0:00:00|  0:00:29|
+# Route    | 56|    13|     7|   8|    6|   24|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 57|     6|     9|   8|    7|   23|    0|   0| 25|  0:00:01|  0:00:30|
+# Route    | 58|     9|     3|  11|    9|   24|    0|   0| 20|  0:00:00|  0:00:30|
+# Route    | 59|    16|    26|   7|    6|   26|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 60|    10|    19|  12|    8|   23|    0|   0| 30|  0:00:00|  0:00:31|
+# Route    | 61|     4|     2|  11|   10|   20|    0|   0| 79|  0:00:00|  0:00:31|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:31
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 10
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 26, at vias 6 Total Vias 20
+# Percent Connected   79.49
+# Manhattan Length 15298.5900 Horizontal 9341.4470 Vertical 5957.1430
+# Routed Length 13684.5000 Horizontal 7804.1300 Vertical 5880.3700
+# Ratio Actual / Manhattan   0.8945
+# Unconnected Length 3811.6100 Horizontal 2547.7200 Vertical 1263.8900
+# Current time = Fri Jun 20 18:34:14 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 10
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 26, at vias 6 Total Vias 20
+# Percent Connected   79.49
+# Manhattan Length 15298.5900 Horizontal 9341.4470 Vertical 5957.1430
+# Routed Length 13684.5000 Horizontal 7804.1300 Vertical 5880.3700
+# Ratio Actual / Manhattan   0.8945
+# Unconnected Length 3811.6100 Horizontal 2547.7200 Vertical 1263.8900
+# Start Route Pass 1 of 5
+# Routing 22 wires.
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 11
+# Attempts 22 Successes 11 Failures 11 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 5
+# Start Route Pass 2 of 5
+# Routing 34 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 23 (Cross: 6, Clear: 17, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 11
+# Attempts 33 Successes 22 Failures 11 Vias 23
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 2 of 5
+# Start Route Pass 3 of 5
+# Routing 27 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 19 (Cross: 7, Clear: 12, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 10
+# Attempts 24 Successes 14 Failures 10 Vias 22
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 3 of 5
+# Start Route Pass 4 of 5
+# Routing 41 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 13
+# Attempts 40 Successes 27 Failures 13 Vias 19
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 4 of 5
+# Start Route Pass 5 of 5
+# Routing 13 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 2 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 11
+# Attempts 13 Successes 2 Failures 11 Vias 20
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 5 of 5
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Route    | 32|    30|    11|   4|    2|   25|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 33|    37|    36|  17|    3|   26|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 34|    32|    19|   8|    3|   24|    0|   0| 30|  0:00:00|  0:00:20|
+# Route    | 35|    14|     2|   8|    5|   22|    0|   0| 68|  0:00:01|  0:00:21|
+# Route    | 36|    13|     6|   7|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 37|    17|     9|  10|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 38|    47|    33|  17|    2|   26|    0|   0|  0|  0:00:01|  0:00:22|
+# Route    | 39|    12|    10|  10|    4|   24|    0|   0| 72|  0:00:01|  0:00:23|
+# Route    | 40|    30|    13|  16|    3|   23|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 41|    10|     7|  11|    4|   24|    0|   0| 60|  0:00:00|  0:00:24|
+# Route    | 42|    10|     8|  11|    4|   24|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 43|    32|    27|  10|    3|   25|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 44|    13|    13|  10|    5|   24|    0|   0| 55|  0:00:01|  0:00:25|
+# Route    | 45|    25|    11|  18|    5|   27|    0|   0|  0|  0:00:00|  0:00:25|
+# Route    | 46|    17|     9|  11|    5|   24|    0|   0| 27|  0:00:01|  0:00:26|
+# Route    | 47|     9|    10|  10|    6|   25|    0|   0| 26|  0:00:00|  0:00:26|
+# Route    | 48|    19|    18|   7|    4|   31|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 49|    14|    18|  10|    5|   27|    0|   0| 13|  0:00:00|  0:00:27|
+# Route    | 50|    20|    10|  10|    5|   24|    0|   0|  6|  0:00:01|  0:00:28|
+# Route    | 51|    17|    14|   6|    4|   25|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 52|     4|     2|   9|    8|   24|    0|   0| 80|  0:00:00|  0:00:28|
+# Route    | 53|     9|     8|   9|    5|   24|    0|   0|  0|  0:00:01|  0:00:29|
+# Route    | 54|     8|    12|   6|    5|   25|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 55|     5|     3|  12|    7|   23|    0|   0| 60|  0:00:00|  0:00:29|
+# Route    | 56|    13|     7|   8|    6|   24|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 57|     6|     9|   8|    7|   23|    0|   0| 25|  0:00:01|  0:00:30|
+# Route    | 58|     9|     3|  11|    9|   24|    0|   0| 20|  0:00:00|  0:00:30|
+# Route    | 59|    16|    26|   7|    6|   26|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 60|    10|    19|  12|    8|   23|    0|   0| 30|  0:00:00|  0:00:31|
+# Route    | 61|     4|     2|  11|   10|   20|    0|   0| 79|  0:00:00|  0:00:31|
+# Route    | 62|     0|     2|  11|   11|   22|    0|   0| 66|  0:00:00|  0:00:31|
+# Route    | 63|     6|    17|  11|   11|   23|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 64|     7|    12|  10|   10|   22|    0|   0| 17|  0:00:00|  0:00:32|
+# Route    | 65|     0|     0|  13|   13|   19|    0|   0|100|  0:00:01|  0:00:33|
+# Route    | 66|     0|     1|  11|   11|   20|    0|   0|  0|  0:00:00|  0:00:33|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:33
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 11
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 26, at vias 5 Total Vias 20
+# Percent Connected   84.62
+# Manhattan Length 15472.0700 Horizontal 9430.4470 Vertical 6041.6230
+# Routed Length 13900.5100 Horizontal 8043.0500 Vertical 5857.4600
+# Ratio Actual / Manhattan   0.8984
+# Unconnected Length 3987.2800 Horizontal 2489.8200 Vertical 1497.4600
+# <<ERROR:>> Smart Route: Unable to reach 100% with smart_route. 
+# Check placement, rules, grids, keepouts
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Jun 20 18:34:16 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 11
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 26, at vias 5 Total Vias 20
+# Percent Connected   84.62
+# Manhattan Length 15472.0700 Horizontal 9430.4470 Vertical 6041.6230
+# Routed Length 13900.5100 Horizontal 8043.0500 Vertical 5857.4600
+# Ratio Actual / Manhattan   0.8984
+# Unconnected Length 3987.2800 Horizontal 2489.8200 Vertical 1497.4600
+# Start Clean Pass 1 of 2
+# Routing 120 wires.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 11
+# Attempts 104 Successes 91 Failures 13 Vias 20
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 125 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 11
+# Attempts 107 Successes 93 Failures 14 Vias 20
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Route    | 32|    30|    11|   4|    2|   25|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 33|    37|    36|  17|    3|   26|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 34|    32|    19|   8|    3|   24|    0|   0| 30|  0:00:00|  0:00:20|
+# Route    | 35|    14|     2|   8|    5|   22|    0|   0| 68|  0:00:01|  0:00:21|
+# Route    | 36|    13|     6|   7|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 37|    17|     9|  10|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 38|    47|    33|  17|    2|   26|    0|   0|  0|  0:00:01|  0:00:22|
+# Route    | 39|    12|    10|  10|    4|   24|    0|   0| 72|  0:00:01|  0:00:23|
+# Route    | 40|    30|    13|  16|    3|   23|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 41|    10|     7|  11|    4|   24|    0|   0| 60|  0:00:00|  0:00:24|
+# Route    | 42|    10|     8|  11|    4|   24|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 43|    32|    27|  10|    3|   25|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 44|    13|    13|  10|    5|   24|    0|   0| 55|  0:00:01|  0:00:25|
+# Route    | 45|    25|    11|  18|    5|   27|    0|   0|  0|  0:00:00|  0:00:25|
+# Route    | 46|    17|     9|  11|    5|   24|    0|   0| 27|  0:00:01|  0:00:26|
+# Route    | 47|     9|    10|  10|    6|   25|    0|   0| 26|  0:00:00|  0:00:26|
+# Route    | 48|    19|    18|   7|    4|   31|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 49|    14|    18|  10|    5|   27|    0|   0| 13|  0:00:00|  0:00:27|
+# Route    | 50|    20|    10|  10|    5|   24|    0|   0|  6|  0:00:01|  0:00:28|
+# Route    | 51|    17|    14|   6|    4|   25|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 52|     4|     2|   9|    8|   24|    0|   0| 80|  0:00:00|  0:00:28|
+# Route    | 53|     9|     8|   9|    5|   24|    0|   0|  0|  0:00:01|  0:00:29|
+# Route    | 54|     8|    12|   6|    5|   25|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 55|     5|     3|  12|    7|   23|    0|   0| 60|  0:00:00|  0:00:29|
+# Route    | 56|    13|     7|   8|    6|   24|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 57|     6|     9|   8|    7|   23|    0|   0| 25|  0:00:01|  0:00:30|
+# Route    | 58|     9|     3|  11|    9|   24|    0|   0| 20|  0:00:00|  0:00:30|
+# Route    | 59|    16|    26|   7|    6|   26|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 60|    10|    19|  12|    8|   23|    0|   0| 30|  0:00:00|  0:00:31|
+# Route    | 61|     4|     2|  11|   10|   20|    0|   0| 79|  0:00:00|  0:00:31|
+# Route    | 62|     0|     2|  11|   11|   22|    0|   0| 66|  0:00:00|  0:00:31|
+# Route    | 63|     6|    17|  11|   11|   23|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 64|     7|    12|  10|   10|   22|    0|   0| 17|  0:00:00|  0:00:32|
+# Route    | 65|     0|     0|  13|   13|   19|    0|   0|100|  0:00:01|  0:00:33|
+# Route    | 66|     0|     1|  11|   11|   20|    0|   0|  0|  0:00:00|  0:00:33|
+# Clean    | 67|     0|     1|  13|   11|   20|    0|   0|   |  0:00:00|  0:00:33|
+# Clean    | 68|     0|     1|  14|   11|   20|    0|   0|   |  0:00:01|  0:00:34|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:34
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 11
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 5 Total Vias 20
+# Percent Connected   84.62
+# Manhattan Length 15623.9600 Horizontal 9488.2950 Vertical 6135.6650
+# Routed Length 13899.3700 Horizontal 8006.6100 Vertical 5892.7600
+# Ratio Actual / Manhattan   0.8896
+# Unconnected Length 4046.3500 Horizontal 2489.8200 Vertical 1556.5300
+# Smart Route: Activating PCB testpoint rule.
+# Current time = Fri Jun 20 18:34:18 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 11
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 28, at vias 5 Total Vias 20
+# Percent Connected   84.62
+# Manhattan Length 15623.9600 Horizontal 9488.2950 Vertical 6135.6650
+# Routed Length 13899.3700 Horizontal 8006.6100 Vertical 5892.7600
+# Ratio Actual / Manhattan   0.8896
+# Unconnected Length 4046.3500 Horizontal 2489.8200 Vertical 1556.5300
+# Attempts 31 Successes 17 Failures 14 Vias 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 11
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 30, at vias 5 Total Vias 25
+# Percent Connected   84.62
+# Manhattan Length 15623.9600 Horizontal 9592.2230 Vertical 6031.7370
+# Routed Length 14295.8100 Horizontal 8334.5500 Vertical 5961.2600
+# Ratio Actual / Manhattan   0.9150
+# Unconnected Length 4046.3500 Horizontal 2489.8200 Vertical 1556.5300
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Jun 20 18:34:18 2014
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 11
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 30, at vias 5 Total Vias 25
+# Percent Connected   84.62
+# Manhattan Length 15623.9600 Horizontal 9592.2230 Vertical 6031.7370
+# Routed Length 14295.8100 Horizontal 8334.5500 Vertical 5961.2600
+# Ratio Actual / Manhattan   0.9150
+# Unconnected Length 4046.3500 Horizontal 2489.8200 Vertical 1556.5300
+# Start Clean Pass 1 of 2
+# Routing 129 wires.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 11
+# Attempts 108 Successes 95 Failures 13 Vias 27
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 130 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 1 (Cross: 0, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 11
+# Attempts 111 Successes 97 Failures 14 Vias 27
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|  14|   75|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    52|    15|   8|    8|   18|    0|   0|  0|  0:00:01|  0:00:01|
+# Route    |  2|    74|    37|   5|    3|   18|    0|   0|  0|  0:00:00|  0:00:01|
+# Route    |  3|    49|    19|   9|    3|   19|    0|   0| 38|  0:00:01|  0:00:02|
+# Route    |  4|    63|    27|   8|    2|   22|    0|   0|  0|  0:00:01|  0:00:03|
+# Route    |  5|    68|    23|   9|    2|   21|    0|   0|  0|  0:00:00|  0:00:03|
+# Route    |  6|    53|    19|   9|    3|   23|    0|   0| 20|  0:00:00|  0:00:03|
+# Route    |  7|    46|    31|   9|    4|   22|    0|   0|  0|  0:00:01|  0:00:04|
+# Route    |  8|    42|     8|   8|    4|   23|    0|   0| 35|  0:00:01|  0:00:05|
+# Route    |  9|    42|    18|   9|    3|   24|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 10|    32|     5|   9|    3|   24|    0|   0| 38|  0:00:00|  0:00:05|
+# Route    | 11|    30|     7|   6|    3|   25|    0|   0|  0|  0:00:01|  0:00:06|
+# Route    | 12|    39|    14|   5|    3|   25|    0|   0|  0|  0:00:01|  0:00:07|
+# Route    | 13|    38|    12|   7|    3|   24|    0|   0|  5|  0:00:00|  0:00:07|
+# Route    | 14|    35|     7|   5|    3|   24|    0|   0| 16|  0:00:01|  0:00:08|
+# Route    | 15|    37|     6|   4|    3|   23|    0|   0|  0|  0:00:01|  0:00:09|
+# Route    | 16|    36|     7|   4|    3|   24|    0|   0|  0|  0:00:00|  0:00:09|
+# Route    | 17|    47|    16|  22|    3|   23|    0|   0|  0|  0:00:01|  0:00:10|
+# Route    | 18|    33|     8|   9|    4|   22|    0|   0| 34|  0:00:01|  0:00:11|
+# Route    | 19|    32|     9|   6|    5|   22|    0|   0|  0|  0:00:01|  0:00:12|
+# Route    | 20|    33|    19|   7|    4|   25|    0|   0|  0|  0:00:00|  0:00:12|
+# Route    | 21|    38|    12|   8|    3|   24|    0|   0|  3|  0:00:01|  0:00:13|
+# Route    | 22|    33|    17|   7|    3|   23|    0|   0|  0|  0:00:01|  0:00:14|
+# Route    | 23|    36|    22|   4|    3|   28|    0|   0|  0|  0:00:00|  0:00:14|
+# Route    | 24|    15|     8|   8|    4|   26|    0|   0| 60|  0:00:00|  0:00:14|
+# Route    | 25|    15|     3|   6|    4|   26|    0|   0| 21|  0:00:01|  0:00:15|
+# Clean    | 26|    15|     3|  31|    4|   26|    0|   0|   |  0:00:01|  0:00:16|
+# Clean    | 27|    15|     3|  30|    4|   26|    0|   0|   |  0:00:00|  0:00:16|
+# Route    | 28|    14|     5|   5|    4|   26|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 29|    24|    15|  12|    2|   30|    0|   0|  0|  0:00:00|  0:00:16|
+# Route    | 30|    33|     6|   9|    2|   27|    0|   0|  0|  0:00:01|  0:00:17|
+# Route    | 31|    32|     3|  20|    2|   26|    0|   0| 10|  0:00:01|  0:00:18|
+# Route    | 32|    30|    11|   4|    2|   25|    0|   0|  0|  0:00:01|  0:00:19|
+# Route    | 33|    37|    36|  17|    3|   26|    0|   0|  0|  0:00:01|  0:00:20|
+# Route    | 34|    32|    19|   8|    3|   24|    0|   0| 30|  0:00:00|  0:00:20|
+# Route    | 35|    14|     2|   8|    5|   22|    0|   0| 68|  0:00:01|  0:00:21|
+# Route    | 36|    13|     6|   7|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 37|    17|     9|  10|    4|   23|    0|   0|  0|  0:00:00|  0:00:21|
+# Route    | 38|    47|    33|  17|    2|   26|    0|   0|  0|  0:00:01|  0:00:22|
+# Route    | 39|    12|    10|  10|    4|   24|    0|   0| 72|  0:00:01|  0:00:23|
+# Route    | 40|    30|    13|  16|    3|   23|    0|   0|  0|  0:00:01|  0:00:24|
+# Route    | 41|    10|     7|  11|    4|   24|    0|   0| 60|  0:00:00|  0:00:24|
+# Route    | 42|    10|     8|  11|    4|   24|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 43|    32|    27|  10|    3|   25|    0|   0|  0|  0:00:00|  0:00:24|
+# Route    | 44|    13|    13|  10|    5|   24|    0|   0| 55|  0:00:01|  0:00:25|
+# Route    | 45|    25|    11|  18|    5|   27|    0|   0|  0|  0:00:00|  0:00:25|
+# Route    | 46|    17|     9|  11|    5|   24|    0|   0| 27|  0:00:01|  0:00:26|
+# Route    | 47|     9|    10|  10|    6|   25|    0|   0| 26|  0:00:00|  0:00:26|
+# Route    | 48|    19|    18|   7|    4|   31|    0|   0|  0|  0:00:01|  0:00:27|
+# Route    | 49|    14|    18|  10|    5|   27|    0|   0| 13|  0:00:00|  0:00:27|
+# Route    | 50|    20|    10|  10|    5|   24|    0|   0|  6|  0:00:01|  0:00:28|
+# Route    | 51|    17|    14|   6|    4|   25|    0|   0|  0|  0:00:00|  0:00:28|
+# Route    | 52|     4|     2|   9|    8|   24|    0|   0| 80|  0:00:00|  0:00:28|
+# Route    | 53|     9|     8|   9|    5|   24|    0|   0|  0|  0:00:01|  0:00:29|
+# Route    | 54|     8|    12|   6|    5|   25|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 55|     5|     3|  12|    7|   23|    0|   0| 60|  0:00:00|  0:00:29|
+# Route    | 56|    13|     7|   8|    6|   24|    0|   0|  0|  0:00:00|  0:00:29|
+# Route    | 57|     6|     9|   8|    7|   23|    0|   0| 25|  0:00:01|  0:00:30|
+# Route    | 58|     9|     3|  11|    9|   24|    0|   0| 20|  0:00:00|  0:00:30|
+# Route    | 59|    16|    26|   7|    6|   26|    0|   0|  0|  0:00:01|  0:00:31|
+# Route    | 60|    10|    19|  12|    8|   23|    0|   0| 30|  0:00:00|  0:00:31|
+# Route    | 61|     4|     2|  11|   10|   20|    0|   0| 79|  0:00:00|  0:00:31|
+# Route    | 62|     0|     2|  11|   11|   22|    0|   0| 66|  0:00:00|  0:00:31|
+# Route    | 63|     6|    17|  11|   11|   23|    0|   0|  0|  0:00:01|  0:00:32|
+# Route    | 64|     7|    12|  10|   10|   22|    0|   0| 17|  0:00:00|  0:00:32|
+# Route    | 65|     0|     0|  13|   13|   19|    0|   0|100|  0:00:01|  0:00:33|
+# Route    | 66|     0|     1|  11|   11|   20|    0|   0|  0|  0:00:00|  0:00:33|
+# Clean    | 67|     0|     1|  13|   11|   20|    0|   0|   |  0:00:00|  0:00:33|
+# Clean    | 68|     0|     1|  14|   11|   20|    0|   0|   |  0:00:01|  0:00:34|
+# Testpoint| 68|     0|     1|  14|   11|   25|    0|   0|   |  0:00:01|  0:00:35|
+# Clean    | 69|     0|     1|  13|   11|   27|    0|   0|   |  0:00:01|  0:00:36|
+# Clean    | 70|     0|     1|  14|   11|   27|    0|   0|   |  0:00:00|  0:00:36|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:36
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro\TESTPCB.dsn
+# Nets 35 Connections 78 Unroutes 11
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 30, at vias 5 Total Vias 27
+# Percent Connected   84.62
+# Manhattan Length 15805.5500 Horizontal 9680.8090 Vertical 6124.7410
+# Routed Length 14263.4600 Horizontal 8247.6000 Vertical 6015.8600
+# Ratio Actual / Manhattan   0.9024
+# Unconnected Length 4152.2900 Horizontal 2690.3100 Vertical 1461.9800
+# Smart Route: Smart_route finished, completion rate: 84.62.
+write routes (changed_only) (reset_changed) C:/Users/MSAHAD~1/AppData/Local/Temp/#Taaaaas05216.tmp
+# Routing Written to File C:/Users/MSAHAD~1/AppData/Local/Temp/#Taaaaas05216.tmp
+quit

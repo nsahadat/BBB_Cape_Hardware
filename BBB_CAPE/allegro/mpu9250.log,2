@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MPU9250.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jun 27 12:58:44 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro
+    Name      = mpu9250.psm
+    User      = msahadat3
+    Machine   = TS422-02
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

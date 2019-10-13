@@ -1,0 +1,970 @@
+\t (00:00:15) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:15)     Journal start - Wed Jul 30 15:00:18 2014
+\t (00:00:15)         Host=TS419-16 User=msahadat3 Pid=3852 CPUs=4
+\t (00:00:15) 
+\d (00:00:15) Database opened: C:/Users/msahadat3/Dropbox/GATech/BBB_CAPE/allegro/BBB_SIMULATION.brd
+\i (00:00:15) generaledit 
+\i (00:00:19) show measure 
+\i (00:00:21) pick grid 6966.03 17744.50
+\t (00:00:21) last pick:  6966.00  17745.00
+\i (00:00:22) pick grid 6971.67 17614.75
+\t (00:00:22) last pick:  6972.00  17615.00
+\i (00:00:31) pick grid 6968.85 17485.00
+\t (00:00:31) last pick:  6969.00  17485.00
+\i (00:00:33) pick grid 6974.50 17369.36
+\t (00:00:33) last pick:  6975.00  17369.00
+\i (00:00:37) pick grid 7078.86 17504.75
+\t (00:00:37) last pick:  7079.00  17505.00
+\i (00:00:41) pick grid 7248.09 17555.52
+\t (00:00:41) last pick:  7248.00  17556.00
+\i (00:00:41) pick grid 7386.30 17549.87
+\t (00:00:41) last pick:  7386.00  17550.00
+\i (00:00:45) pick grid 7518.87 17558.34
+\t (00:00:45) last pick:  7519.00  17558.00
+\i (00:00:47) pick grid 7665.54 17575.26
+\t (00:00:47) last pick:  7666.00  17575.00
+\i (00:00:48) pick grid 7233.99 17473.72
+\t (00:00:48) last pick:  7234.00  17474.00
+\i (00:00:50) pick grid 7375.02 17465.26
+\t (00:00:50) last pick:  7375.00  17465.00
+\i (00:01:00) prepopup 8917.88 17253.71
+\i (00:01:01) done 
+\i (00:01:01) generaledit 
+\i (00:01:16) pick grid 7253.73 17563.98
+\t (00:01:16) last pick:  7254.00  17564.00
+\i (00:01:17) prepopup 8909.42 17417.31
+\i (00:01:18) pick grid 8867.11 17482.18
+\t (00:01:18) last pick:  8867.00  17482.00
+\i (00:01:19) pick grid dbl 8867.11 17482.18
+\t (00:01:19) last pick:  8867.00  17482.00
+\i (00:01:20) show measure 
+\i (00:01:22) pick grid 7262.20 17569.62
+\t (00:01:22) last pick:  7262.00  17570.00
+\i (00:01:23) pick grid 7375.02 17563.98
+\t (00:01:23) last pick:  7375.00  17564.00
+\i (00:01:27) pick grid 7499.12 17563.98
+\t (00:01:27) last pick:  7499.00  17564.00
+\i (00:01:30) pick grid 7645.80 17566.80
+\t (00:01:30) last pick:  7646.00  17567.00
+\i (00:01:32) prepopup 8884.03 17360.90
+\i (00:01:33) done 
+\i (00:01:33) generaledit 
+\i (00:01:36) show measure 
+\i (00:01:37) pick grid 7634.51 17552.70
+\t (00:01:37) last pick:  7635.00  17553.00
+\i (00:01:38) pick grid 7645.80 17462.44
+\t (00:01:38) last pick:  7646.00  17462.00
+\i (00:01:40) prepopup 8906.60 17465.26
+\i (00:01:40) done 
+\i (00:01:40) generaledit 
+\i (26:09:24) xhilite 
+\i (26:09:24) xname_flush 
+\i (26:09:24) done 
+\i (26:09:24) generaledit 
+\i (26:09:28) xdehilite 
+\i (26:09:28) xname_flush 
+\i (26:09:28) done 
+\i (26:09:28) generaledit 
+\i (26:09:29) xhilite 
+\i (26:09:29) xname_flush 
+\i (26:09:29) done 
+\i (26:09:29) generaledit 
+\i (26:09:32) xdehilite 
+\i (26:09:32) xname_flush 
+\i (26:09:32) done 
+\i (26:09:32) generaledit 
+\i (26:27:00) xhilite 
+\i (26:27:00) xname_flush 
+\i (26:27:00) done 
+\i (26:27:00) generaledit 
+\i (26:27:03) xdehilite 
+\i (26:27:03) xname_flush 
+\i (26:27:03) done 
+\i (26:27:03) generaledit 
+\i (27:07:08) xhilite 
+\i (27:07:08) xname_flush 
+\i (27:07:08) done 
+\i (27:07:08) generaledit 
+\i (27:07:22) xdehilite 
+\i (27:07:22) xname_flush 
+\i (27:07:22) done 
+\i (27:07:22) generaledit 
+\i (27:07:34) xhilite 
+\i (27:07:34) xname_flush 
+\i (27:07:34) done 
+\i (27:07:34) generaledit 
+\i (27:07:42) xdehilite 
+\i (27:07:42) xname_flush 
+\i (27:07:42) done 
+\i (27:07:42) generaledit 
+\i (27:09:00) xhilite 
+\i (27:09:00) xname_flush 
+\i (27:09:00) done 
+\i (27:09:01) generaledit 
+\i (27:09:03) xdehilite 
+\i (27:09:03) xname_flush 
+\i (27:09:03) done 
+\i (27:09:03) generaledit 
+\i (27:09:20) xhilite 
+\i (27:09:20) xname_flush 
+\i (27:09:20) done 
+\i (27:09:20) generaledit 
+\i (27:09:23) xdehilite 
+\i (27:09:23) xname_flush 
+\i (27:09:23) done 
+\i (27:09:23) generaledit 
+\i (27:10:14) xhilite 
+\i (27:10:14) xname_flush 
+\i (27:10:14) done 
+\i (27:10:14) generaledit 
+\i (27:10:16) xdehilite 
+\i (27:10:16) xname_flush 
+\i (27:10:16) done 
+\i (27:10:16) generaledit 
+\i (27:11:06) xhilite 
+\i (27:11:06) xname_flush 
+\i (27:11:06) done 
+\i (27:11:06) generaledit 
+\i (27:11:08) xdehilite 
+\i (27:11:08) xname_flush 
+\i (27:11:08) done 
+\i (27:11:08) generaledit 
+\i (27:11:48) xhilite 
+\i (27:11:48) xname_flush 
+\i (27:11:48) done 
+\i (27:11:48) generaledit 
+\i (27:11:55) xdehilite 
+\i (27:11:55) xname_flush 
+\i (27:11:55) done 
+\i (27:11:55) generaledit 
+\i (27:11:57) xhilite 
+\i (27:11:57) xNet +12V 
+\i (27:11:57) xname_flush 
+\i (27:11:57) trapsize 678
+\t (27:11:57) Net "+12V" highlighted.
+\i (27:11:58) done 
+\i (27:11:58) generaledit 
+\i (27:12:04) xdehilite 
+\i (27:12:04) xNet +12V 
+\i (27:12:04) xname_flush 
+\t (27:12:04) Net "+12V" dehighlighted.
+\i (27:12:04) done 
+\i (27:12:04) generaledit 
+\i (27:12:49) xhilite 
+\i (27:12:49) xname_flush 
+\i (27:12:49) done 
+\i (27:12:49) generaledit 
+\i (27:13:12) xdehilite 
+\i (27:13:12) xname_flush 
+\i (27:13:12) done 
+\i (27:13:12) generaledit 
+\i (27:13:14) xhilite 
+\i (27:13:14) xname_flush 
+\i (27:13:14) done 
+\i (27:13:14) generaledit 
+\i (27:13:20) xdehilite 
+\i (27:13:20) xname_flush 
+\i (27:13:20) done 
+\i (27:13:20) generaledit 
+\i (27:13:29) xhilite 
+\i (27:13:29) xname_flush 
+\i (27:13:29) done 
+\i (27:13:30) generaledit 
+\i (27:13:33) xdehilite 
+\i (27:13:33) xname_flush 
+\i (27:13:33) done 
+\i (27:13:33) generaledit 
+\i (27:13:35) xhilite 
+\i (27:13:35) xname_flush 
+\i (27:13:35) done 
+\i (27:13:35) generaledit 
+\i (27:13:38) xdehilite 
+\i (27:13:38) xname_flush 
+\i (27:13:38) done 
+\i (27:13:38) generaledit 
+\i (27:13:48) xhilite 
+\i (27:13:48) xname_flush 
+\i (27:13:48) done 
+\i (27:13:48) generaledit 
+\i (27:13:50) xdehilite 
+\i (27:13:50) xname_flush 
+\i (27:13:50) done 
+\i (27:13:50) generaledit 
+\i (27:14:26) xhilite 
+\i (27:14:26) xname_flush 
+\i (27:14:26) done 
+\i (27:14:26) generaledit 
+\i (27:14:28) xdehilite 
+\i (27:14:28) xname_flush 
+\i (27:14:28) done 
+\i (27:14:28) generaledit 
+\i (27:14:29) xhilite 
+\i (27:14:29) xname_flush 
+\i (27:14:29) done 
+\i (27:14:29) generaledit 
+\i (27:14:54) xhilite 
+\i (27:14:54) xrefdes R3 
+\i (27:14:54) xname_flush 
+\i (27:14:54) trapsize 104
+\t (27:14:54) Symbol "R3" highlighted.
+\i (27:14:54) done 
+\i (27:14:54) generaledit 
+\i (27:14:56) xdehilite 
+\i (27:14:56) xrefdes R3 
+\i (27:14:56) xname_flush 
+\t (27:14:56) Symbol "R3" dehighlighted.
+\i (27:14:56) done 
+\i (27:14:56) generaledit 
+\i (27:15:03) xdehilite 
+\i (27:15:03) xname_flush 
+\i (27:15:03) done 
+\i (27:15:03) generaledit 
+\i (27:15:08) xhilite 
+\i (27:15:08) xname_flush 
+\i (27:15:08) done 
+\i (27:15:08) generaledit 
+\i (27:15:15) xdehilite 
+\i (27:15:15) xname_flush 
+\i (27:15:15) done 
+\i (27:15:15) generaledit 
+\i (27:16:20) xhilite 
+\i (27:16:20) xname_flush 
+\i (27:16:20) done 
+\i (27:16:20) xdehilite 
+\i (27:16:20) xname_flush 
+\i (27:16:20) done 
+\i (27:16:20) xhilite 
+\i (27:16:20) xname_flush 
+\i (27:16:20) done 
+\i (27:16:20) generaledit 
+\i (27:16:21) xdehilite 
+\i (27:16:21) xname_flush 
+\i (27:16:21) done 
+\i (27:16:21) generaledit 
+\i (27:16:21) xhilite 
+\i (27:16:21) xname_flush 
+\i (27:16:21) done 
+\i (27:16:21) generaledit 
+\i (27:16:44) xhilite 
+\i (27:16:44) xname_flush 
+\i (27:16:44) done 
+\i (27:16:44) generaledit 
+\i (27:16:45) xdehilite 
+\i (27:16:45) xname_flush 
+\i (27:16:45) done 
+\i (27:16:45) generaledit 
+\i (27:17:49) xhilite 
+\i (27:17:49) xNet Gnd 
+\i (27:17:49) xname_flush 
+\i (27:17:49) trapsize 1396
+\t (27:17:49) Net "Gnd" highlighted.
+\i (27:17:49) done 
+\i (27:17:49) generaledit 
+\i (27:17:51) xdehilite 
+\i (27:17:51) xNet Gnd 
+\i (27:17:51) xname_flush 
+\t (27:17:51) Net "Gnd" dehighlighted.
+\i (27:17:51) done 
+\i (27:17:51) generaledit 
+\i (27:18:22) xhilite 
+\i (27:18:22) xNet Gnd 
+\i (27:18:22) xname_flush 
+\i (27:18:22) trapsize 1396
+\t (27:18:22) Net "Gnd" highlighted.
+\i (27:18:22) done 
+\i (27:18:22) generaledit 
+\i (27:18:48) xhilite 
+\i (27:18:48) xname_flush 
+\i (27:18:48) done 
+\i (27:18:48) generaledit 
+\i (27:18:49) xdehilite 
+\i (27:18:49) xname_flush 
+\i (27:18:49) done 
+\i (27:18:49) xhilite 
+\i (27:18:49) xname_flush 
+\i (27:18:49) done 
+\i (27:18:49) generaledit 
+\i (27:18:51) xdehilite 
+\i (27:18:51) xname_flush 
+\i (27:18:51) done 
+\i (27:18:51) generaledit 
+\i (27:19:06) xhilite 
+\i (27:19:06) xname_flush 
+\i (27:19:06) done 
+\i (27:19:06) generaledit 
+\i (27:19:08) xdehilite 
+\i (27:19:08) xname_flush 
+\i (27:19:08) done 
+\i (27:19:08) generaledit 
+\i (27:20:30) xhilite 
+\i (27:20:30) xname_flush 
+\i (27:20:30) done 
+\i (27:20:30) generaledit 
+\i (27:20:33) xdehilite 
+\i (27:20:33) xname_flush 
+\i (27:20:33) done 
+\i (27:20:33) generaledit 
+\i (27:20:44) xdehilite 
+\i (27:20:44) xname_flush 
+\i (27:20:44) done 
+\i (27:20:44) generaledit 
+\i (27:20:52) xhilite 
+\i (27:20:52) xname_flush 
+\i (27:20:52) done 
+\i (27:20:52) generaledit 
+\i (27:20:53) xdehilite 
+\i (27:20:53) xname_flush 
+\i (27:20:53) done 
+\i (27:20:53) generaledit 
+\i (27:20:56) xhilite 
+\i (27:20:56) xNet Vcc3v 
+\i (27:20:56) xname_flush 
+\i (27:20:56) trapsize 1396
+\t (27:20:56) Net "Vcc3v" highlighted.
+\i (27:20:56) done 
+\i (27:20:56) generaledit 
+\i (27:20:57) xdehilite 
+\i (27:20:57) xNet Vcc3v 
+\i (27:20:57) xname_flush 
+\t (27:20:57) Net "Vcc3v" dehighlighted.
+\i (27:20:57) done 
+\i (27:20:57) generaledit 
+\i (27:20:58) xhilite 
+\i (27:20:59) xNet Vcc3v 
+\i (27:20:59) xname_flush 
+\i (27:20:59) trapsize 1396
+\t (27:20:59) Net "Vcc3v" highlighted.
+\i (27:20:59) done 
+\i (27:20:59) generaledit 
+\i (27:21:01) xdehilite 
+\i (27:21:01) xNet Vcc3v 
+\i (27:21:01) xname_flush 
+\t (27:21:01) Net "Vcc3v" dehighlighted.
+\i (27:21:01) done 
+\i (27:21:01) generaledit 
+\i (27:21:02) xhilite 
+\i (27:21:02) xNet Vcc3v 
+\i (27:21:02) xname_flush 
+\i (27:21:02) trapsize 1396
+\t (27:21:02) Net "Vcc3v" highlighted.
+\i (27:21:02) done 
+\i (27:21:02) generaledit 
+\i (27:21:05) xdehilite 
+\i (27:21:05) xNet Vcc3v 
+\i (27:21:05) xname_flush 
+\t (27:21:05) Net "Vcc3v" dehighlighted.
+\i (27:21:05) done 
+\i (27:21:05) xhilite 
+\i (27:21:05) xNet Vcc3v 
+\i (27:21:05) xname_flush 
+\i (27:21:05) trapsize 1396
+\t (27:21:05) Net "Vcc3v" highlighted.
+\i (27:21:05) done 
+\i (27:21:05) generaledit 
+\i (27:21:07) xdehilite 
+\i (27:21:07) xNet Vcc3v 
+\i (27:21:07) xname_flush 
+\t (27:21:07) Net "Vcc3v" dehighlighted.
+\i (27:21:07) done 
+\i (27:21:07) generaledit 
+\i (27:21:31) xhilite 
+\i (27:21:31) xNet Reset_N 
+\i (27:21:31) xname_flush 
+\i (27:21:31) trapsize 1396
+\t (27:21:31) Net "Reset_N" highlighted.
+\i (27:21:31) done 
+\i (27:21:31) generaledit 
+\i (27:21:36) xdehilite 
+\i (27:21:37) xNet Reset_N 
+\i (27:21:37) xname_flush 
+\t (27:21:37) Net "Reset_N" dehighlighted.
+\i (27:21:37) done 
+\i (27:21:37) generaledit 
+\i (27:23:04) xhilite 
+\i (27:23:04) xname_flush 
+\i (27:23:04) done 
+\i (27:23:04) generaledit 
+\i (27:23:21) xdehilite 
+\i (27:23:21) xname_flush 
+\i (27:23:21) done 
+\i (27:23:21) generaledit 
+\i (27:23:22) xhilite 
+\i (27:23:22) xname_flush 
+\i (27:23:22) done 
+\i (27:23:22) generaledit 
+\i (27:51:31) xdehilite 
+\i (27:51:31) xname_flush 
+\i (27:51:31) done 
+\i (27:51:31) generaledit 
+\i (27:52:03) xhilite 
+\i (27:52:03) xname_flush 
+\i (27:52:03) done 
+\i (27:52:03) generaledit 
+\i (27:52:05) xdehilite 
+\i (27:52:05) xname_flush 
+\i (27:52:05) done 
+\i (27:52:05) generaledit 
+\i (27:52:06) xhilite 
+\i (27:52:06) xname_flush 
+\i (27:52:06) done 
+\i (27:52:06) generaledit 
+\i (27:52:09) xhilite 
+\i (27:52:09) xname_flush 
+\i (27:52:09) done 
+\i (27:52:09) generaledit 
+\i (27:52:12) xdehilite 
+\i (27:52:12) xname_flush 
+\i (27:52:12) done 
+\i (27:52:12) generaledit 
+\i (27:52:19) xhilite 
+\i (27:52:19) xname_flush 
+\i (27:52:19) done 
+\i (27:52:19) generaledit 
+\i (27:52:21) xdehilite 
+\i (27:52:21) xname_flush 
+\i (27:52:21) done 
+\i (27:52:21) xhilite 
+\i (27:52:21) xname_flush 
+\i (27:52:21) done 
+\i (27:52:21) xdehilite 
+\i (27:52:21) xname_flush 
+\i (27:52:21) done 
+\i (27:52:21) xhilite 
+\i (27:52:21) xname_flush 
+\i (27:52:21) done 
+\i (27:52:21) generaledit 
+\i (27:52:23) xdehilite 
+\i (27:52:24) xname_flush 
+\i (27:52:24) done 
+\i (27:52:24) generaledit 
+\i (27:52:33) xhilite 
+\i (27:52:33) xname_flush 
+\i (27:52:33) done 
+\i (27:52:33) generaledit 
+\i (27:52:41) xhilite 
+\i (27:52:41) xname_flush 
+\i (27:52:41) done 
+\i (27:52:41) generaledit 
+\i (27:52:47) xdehilite 
+\i (27:52:47) xname_flush 
+\i (27:52:47) done 
+\i (27:52:47) xhilite 
+\i (27:52:47) xname_flush 
+\i (27:52:47) done 
+\i (27:52:47) generaledit 
+\i (27:52:48) xdehilite 
+\i (27:52:48) xname_flush 
+\i (27:52:48) done 
+\i (27:52:48) xhilite 
+\i (27:52:48) xname_flush 
+\i (27:52:48) done 
+\i (27:52:48) generaledit 
+\i (27:52:49) xdehilite 
+\i (27:52:49) xname_flush 
+\i (27:52:49) done 
+\i (27:52:49) generaledit 
+\i (27:52:50) xhilite 
+\i (27:52:50) xname_flush 
+\i (27:52:50) done 
+\i (27:52:50) generaledit 
+\i (27:52:54) xdehilite 
+\i (27:52:54) xname_flush 
+\i (27:52:54) done 
+\i (27:52:54) generaledit 
+\i (27:52:55) xhilite 
+\i (27:52:55) xname_flush 
+\i (27:52:55) done 
+\i (27:52:55) generaledit 
+\i (27:52:57) xdehilite 
+\i (27:52:57) xname_flush 
+\i (27:52:57) done 
+\i (27:52:57) generaledit 
+\i (27:59:09) xhilite 
+\i (27:59:09) xname_flush 
+\i (27:59:09) done 
+\i (27:59:09) generaledit 
+\i (27:59:30) xdehilite 
+\i (27:59:30) xname_flush 
+\i (27:59:30) done 
+\i (27:59:30) generaledit 
+\i (27:59:35) xhilite 
+\i (27:59:35) xname_flush 
+\i (27:59:35) done 
+\i (27:59:35) generaledit 
+\i (27:59:39) xdehilite 
+\i (27:59:39) xname_flush 
+\i (27:59:39) done 
+\i (27:59:39) generaledit 
+\i (27:59:40) xhilite 
+\i (27:59:40) xname_flush 
+\i (27:59:40) done 
+\i (27:59:40) generaledit 
+\i (27:59:48) xdehilite 
+\i (27:59:48) xname_flush 
+\i (27:59:48) done 
+\i (27:59:48) generaledit 
+\i (27:59:52) xhilite 
+\i (27:59:52) xname_flush 
+\i (27:59:52) done 
+\i (27:59:52) generaledit 
+\i (27:59:55) xdehilite 
+\i (27:59:55) xNet Gnd 
+\i (27:59:55) xname_flush 
+\t (27:59:55) Net "Gnd" dehighlighted.
+\i (27:59:55) done 
+\i (27:59:55) xhilite 
+\i (27:59:55) xNet Gnd 
+\i (27:59:55) xname_flush 
+\i (27:59:55) trapsize 1396
+\t (27:59:55) Net "Gnd" highlighted.
+\i (27:59:55) done 
+\i (27:59:55) generaledit 
+\i (27:59:57) xdehilite 
+\i (27:59:57) xNet Gnd 
+\i (27:59:57) xname_flush 
+\t (27:59:57) Net "Gnd" dehighlighted.
+\i (27:59:57) done 
+\i (27:59:57) generaledit 
+\i (27:59:59) xhilite 
+\i (27:59:59) xname_flush 
+\i (27:59:59) done 
+\i (27:59:59) generaledit 
+\i (28:00:06) xdehilite 
+\i (28:00:06) xname_flush 
+\i (28:00:06) done 
+\i (28:00:06) generaledit 
+\i (28:00:07) xhilite 
+\i (28:00:07) xname_flush 
+\i (28:00:07) done 
+\i (28:00:07) generaledit 
+\i (28:00:08) xdehilite 
+\i (28:00:08) xname_flush 
+\i (28:00:08) done 
+\i (28:00:09) generaledit 
+\i (28:00:11) xhilite 
+\i (28:00:11) xname_flush 
+\i (28:00:11) done 
+\i (28:00:11) generaledit 
+\i (28:00:15) xdehilite 
+\i (28:00:15) xname_flush 
+\i (28:00:15) done 
+\i (28:00:15) generaledit 
+\i (28:00:16) xhilite 
+\i (28:00:16) xname_flush 
+\i (28:00:16) done 
+\i (28:00:16) generaledit 
+\i (28:00:19) xdehilite 
+\i (28:00:19) xname_flush 
+\i (28:00:19) done 
+\i (28:00:19) xhilite 
+\i (28:00:19) xname_flush 
+\i (28:00:19) done 
+\i (28:00:19) generaledit 
+\i (28:00:25) xdehilite 
+\i (28:00:25) xname_flush 
+\i (28:00:25) done 
+\i (28:00:25) xhilite 
+\i (28:00:25) xname_flush 
+\i (28:00:25) done 
+\i (28:00:25) generaledit 
+\i (28:00:27) xdehilite 
+\i (28:00:27) xname_flush 
+\i (28:00:27) done 
+\i (28:00:27) generaledit 
+\i (28:00:29) xhilite 
+\i (28:00:29) xname_flush 
+\i (28:00:29) done 
+\i (28:00:29) generaledit 
+\i (28:00:31) xdehilite 
+\i (28:00:31) xname_flush 
+\i (28:00:31) done 
+\i (28:00:31) generaledit 
+\i (28:10:56) xhilite 
+\i (28:10:56) xname_flush 
+\i (28:10:56) done 
+\i (28:10:56) generaledit 
+\i (28:11:04) xhilite 
+\i (28:11:04) xname_flush 
+\i (28:11:04) done 
+\i (28:11:04) generaledit 
+\i (28:11:16) xdehilite 
+\i (28:11:16) xname_flush 
+\i (28:11:16) done 
+\i (28:11:16) generaledit 
+\i (28:11:19) xhilite 
+\i (28:11:19) xname_flush 
+\i (28:11:19) done 
+\i (28:11:19) generaledit 
+\i (28:11:24) xdehilite 
+\i (28:11:24) xname_flush 
+\i (28:11:24) done 
+\i (28:11:24) generaledit 
+\i (28:11:35) xhilite 
+\i (28:11:35) xNet Gnd 
+\i (28:11:35) xname_flush 
+\i (28:11:35) trapsize 1396
+\t (28:11:35) Net "Gnd" highlighted.
+\i (28:11:35) done 
+\i (28:11:35) generaledit 
+\i (28:11:38) xdehilite 
+\i (28:11:38) xNet Gnd 
+\i (28:11:38) xname_flush 
+\t (28:11:38) Net "Gnd" dehighlighted.
+\i (28:11:38) done 
+\i (28:11:38) generaledit 
+\i (28:11:39) xhilite 
+\i (28:11:39) xNet Gnd 
+\i (28:11:39) xname_flush 
+\i (28:11:39) trapsize 1396
+\t (28:11:39) Net "Gnd" highlighted.
+\i (28:11:39) done 
+\i (28:11:39) generaledit 
+\i (28:11:43) xdehilite 
+\i (28:11:43) xNet Gnd 
+\i (28:11:43) xname_flush 
+\t (28:11:43) Net "Gnd" dehighlighted.
+\i (28:11:43) done 
+\i (28:11:43) xhilite 
+\i (28:11:43) xNet Gnd 
+\i (28:11:43) xname_flush 
+\i (28:11:43) trapsize 1396
+\t (28:11:43) Net "Gnd" highlighted.
+\i (28:11:43) done 
+\i (28:11:44) generaledit 
+\i (28:11:46) xdehilite 
+\i (28:11:46) xNet Gnd 
+\i (28:11:46) xname_flush 
+\t (28:11:46) Net "Gnd" dehighlighted.
+\i (28:11:46) done 
+\i (28:11:46) generaledit 
+\i (28:11:48) xhilite 
+\i (28:11:49) xname_flush 
+\i (28:11:49) done 
+\i (28:11:49) generaledit 
+\i (28:11:53) xdehilite 
+\i (28:11:53) xname_flush 
+\i (28:11:53) done 
+\i (28:11:53) generaledit 
+\i (28:11:59) xhilite 
+\i (28:11:59) xname_flush 
+\i (28:11:59) done 
+\i (28:11:59) generaledit 
+\i (28:12:02) xdehilite 
+\i (28:12:02) xname_flush 
+\i (28:12:02) done 
+\i (28:12:02) generaledit 
+\i (28:12:04) xhilite 
+\i (28:12:04) xname_flush 
+\i (28:12:04) done 
+\i (28:12:04) generaledit 
+\i (28:12:09) xdehilite 
+\i (28:12:09) xname_flush 
+\i (28:12:09) done 
+\i (28:12:09) generaledit 
+\i (28:12:10) xhilite 
+\i (28:12:10) xname_flush 
+\i (28:12:10) done 
+\i (28:12:10) generaledit 
+\i (28:12:12) xdehilite 
+\i (28:12:12) xname_flush 
+\i (28:12:12) done 
+\i (28:12:12) generaledit 
+\i (28:19:00) xhilite 
+\i (28:19:00) xname_flush 
+\i (28:19:00) done 
+\i (28:19:00) generaledit 
+\i (28:19:05) xdehilite 
+\i (28:19:05) xname_flush 
+\i (28:19:05) done 
+\i (28:19:05) generaledit 
+\i (28:19:07) xhilite 
+\i (28:19:07) xname_flush 
+\i (28:19:07) done 
+\i (28:19:07) generaledit 
+\i (28:19:15) xdehilite 
+\i (28:19:15) xname_flush 
+\i (28:19:15) done 
+\i (28:19:15) generaledit 
+\i (28:30:47) xhilite 
+\i (28:30:47) xNet Reset_N 
+\i (28:30:47) xname_flush 
+\i (28:30:47) trapsize 1396
+\t (28:30:47) Net "Reset_N" highlighted.
+\i (28:30:47) done 
+\i (28:30:47) generaledit 
+\i (28:30:51) xdehilite 
+\i (28:30:51) xNet Reset_N 
+\i (28:30:51) xname_flush 
+\t (28:30:51) Net "Reset_N" dehighlighted.
+\i (28:30:51) done 
+\i (28:30:51) generaledit 
+\i (28:34:28) xhilite 
+\i (28:34:28) xNet Reset_N 
+\i (28:34:28) xname_flush 
+\i (28:34:28) trapsize 1396
+\t (28:34:28) Net "Reset_N" highlighted.
+\i (28:34:28) done 
+\i (28:34:28) generaledit 
+\i (28:34:31) xdehilite 
+\i (28:34:31) xNet Reset_N 
+\i (28:34:31) xname_flush 
+\t (28:34:31) Net "Reset_N" dehighlighted.
+\i (28:34:31) done 
+\i (28:34:31) generaledit 
+\i (28:34:37) xhilite 
+\i (28:34:37) xNet Reset_N 
+\i (28:34:37) xname_flush 
+\i (28:34:37) trapsize 1396
+\t (28:34:37) Net "Reset_N" highlighted.
+\i (28:34:37) done 
+\i (28:34:37) generaledit 
+\i (28:34:39) xdehilite 
+\i (28:34:39) xNet Reset_N 
+\i (28:34:39) xname_flush 
+\t (28:34:39) Net "Reset_N" dehighlighted.
+\i (28:34:39) done 
+\i (28:34:39) generaledit 
+\i (28:36:05) xhilite 
+\i (28:36:05) xname_flush 
+\i (28:36:05) done 
+\i (28:36:05) generaledit 
+\i (28:36:36) xhilite 
+\i (28:36:36) xrefdes R2 
+\i (28:36:36) xname_flush 
+\i (28:36:36) trapsize 104
+\t (28:36:36) Symbol "R2" highlighted.
+\i (28:36:36) done 
+\i (28:36:36) generaledit 
+\i (28:36:38) xdehilite 
+\i (28:36:38) xrefdes R2 
+\i (28:36:38) xname_flush 
+\t (28:36:38) Symbol "R2" dehighlighted.
+\i (28:36:38) done 
+\i (28:36:38) generaledit 
+\i (28:36:45) xdehilite 
+\i (28:36:45) xname_flush 
+\i (28:36:45) done 
+\i (28:36:45) generaledit 
+\i (28:37:02) xhilite 
+\i (28:37:02) xname_flush 
+\i (28:37:02) done 
+\i (28:37:02) generaledit 
+\i (28:37:04) xdehilite 
+\i (28:37:04) xname_flush 
+\i (28:37:04) done 
+\i (28:37:04) generaledit 
+\i (28:37:09) xhilite 
+\i (28:37:09) xname_flush 
+\i (28:37:09) done 
+\i (28:37:09) generaledit 
+\i (28:37:11) xdehilite 
+\i (28:37:11) xname_flush 
+\i (28:37:11) done 
+\i (28:37:11) generaledit 
+\i (28:53:32) xhilite 
+\i (28:53:32) xname_flush 
+\i (28:53:32) done 
+\i (28:53:32) generaledit 
+\i (28:54:05) xhilite 
+\i (28:54:05) xname_flush 
+\i (28:54:05) done 
+\i (28:54:05) generaledit 
+\i (28:54:06) xdehilite 
+\i (28:54:07) xname_flush 
+\i (28:54:07) done 
+\i (28:54:07) generaledit 
+\i (28:54:16) xhilite 
+\i (28:54:16) xname_flush 
+\i (28:54:16) done 
+\i (28:54:16) generaledit 
+\i (28:54:19) xdehilite 
+\i (28:54:19) xname_flush 
+\i (28:54:19) done 
+\i (28:54:19) generaledit 
+\i (28:57:44) xhilite 
+\i (28:57:44) xname_flush 
+\i (28:57:44) done 
+\i (28:57:44) generaledit 
+\i (28:57:51) xdehilite 
+\i (28:57:51) xname_flush 
+\i (28:57:51) done 
+\i (28:57:51) generaledit 
+\i (28:57:59) xhilite 
+\i (28:57:59) xname_flush 
+\i (28:57:59) done 
+\i (28:57:59) generaledit 
+\i (28:58:07) xhilite 
+\i (28:58:07) xrefdes R53 
+\i (28:58:07) xname_flush 
+\i (28:58:07) trapsize 214
+\t (28:58:07) Symbol "R53" highlighted.
+\i (28:58:07) done 
+\i (28:58:07) generaledit 
+\i (28:58:16) xdehilite 
+\i (28:58:16) xrefdes R53 
+\i (28:58:16) xname_flush 
+\t (28:58:16) Symbol "R53" dehighlighted.
+\i (28:58:16) done 
+\i (28:58:16) generaledit 
+\i (28:58:21) xdehilite 
+\i (28:58:21) xname_flush 
+\i (28:58:21) done 
+\i (28:58:21) generaledit 
+\i (28:58:23) xhilite 
+\i (28:58:23) xname_flush 
+\i (28:58:23) done 
+\i (28:58:23) generaledit 
+\i (28:58:36) xdehilite 
+\i (28:58:36) xname_flush 
+\i (28:58:36) done 
+\i (28:58:36) generaledit 
+\i (28:58:37) xhilite 
+\i (28:58:37) xname_flush 
+\i (28:58:37) done 
+\i (28:58:38) generaledit 
+\i (28:58:49) xdehilite 
+\i (28:58:49) xname_flush 
+\i (28:58:49) done 
+\i (28:58:49) generaledit 
+\i (28:58:53) xhilite 
+\i (28:58:54) xname_flush 
+\i (28:58:54) done 
+\i (28:58:54) generaledit 
+\i (28:58:57) xdehilite 
+\i (28:58:57) xname_flush 
+\i (28:58:57) done 
+\i (28:58:57) xhilite 
+\i (28:58:57) xname_flush 
+\i (28:58:57) done 
+\i (28:58:57) generaledit 
+\i (28:59:04) xdehilite 
+\i (28:59:04) xname_flush 
+\i (28:59:04) done 
+\i (28:59:04) generaledit 
+\i (28:59:12) xhilite 
+\i (28:59:12) xname_flush 
+\i (28:59:12) done 
+\i (28:59:12) generaledit 
+\i (28:59:14) xdehilite 
+\i (28:59:14) xname_flush 
+\i (28:59:14) done 
+\i (28:59:14) generaledit 
+\i (28:59:24) xdehilite 
+\i (28:59:24) xname_flush 
+\i (28:59:24) done 
+\i (28:59:24) generaledit 
+\i (28:59:37) xhilite 
+\i (28:59:37) xname_flush 
+\i (28:59:37) done 
+\i (28:59:37) generaledit 
+\i (28:59:39) xdehilite 
+\i (28:59:39) xname_flush 
+\i (28:59:39) done 
+\i (28:59:39) generaledit 
+\i (28:59:44) xhilite 
+\i (28:59:44) xname_flush 
+\i (28:59:44) done 
+\i (28:59:44) generaledit 
+\i (28:59:44) xdehilite 
+\i (28:59:45) xname_flush 
+\i (28:59:45) done 
+\i (28:59:45) generaledit 
+\i (29:00:06) xhilite 
+\i (29:00:06) xNet Vcc3v 
+\i (29:00:06) xname_flush 
+\i (29:00:06) trapsize 1396
+\t (29:00:06) Net "Vcc3v" highlighted.
+\i (29:00:06) done 
+\i (29:00:06) generaledit 
+\i (29:00:10) xdehilite 
+\i (29:00:10) xNet Vcc3v 
+\i (29:00:10) xname_flush 
+\t (29:00:10) Net "Vcc3v" dehighlighted.
+\i (29:00:10) done 
+\i (29:00:10) generaledit 
+\i (29:00:12) xhilite 
+\i (29:00:12) xname_flush 
+\i (29:00:12) done 
+\i (29:00:12) generaledit 
+\i (29:00:20) xdehilite 
+\i (29:00:20) xname_flush 
+\i (29:00:20) done 
+\i (29:00:20) generaledit 
+\i (29:00:32) xhilite 
+\i (29:00:32) xrefdes C1 
+\i (29:00:32) xNet N1397707 
+\i (29:00:32) xNet Gnd 
+\i (29:00:32) xrefdes R2 
+\i (29:00:32) xNet N1398168 
+\i (29:00:32) xNet N1398476 
+\i (29:00:32) xrefdes Rent 
+\i (29:00:32) xrefdes C2 
+\i (29:00:32) xrefdes C3 
+\i (29:00:32) xNet Vcc5v 
+\i (29:00:32) xrefdes R3 
+\i (29:00:32) xrefdes R4 
+\i (29:00:32) xNet N1399253 
+\i (29:00:32) xrefdes C4 
+\i (29:00:32) xrefdes U13 
+\i (29:00:32) xNet N11191313 
+\i (29:00:32) xrefdes U6 
+\i (29:00:32) xname_flush 
+\i (29:00:32) trapsize 1396
+\t (29:00:32) 7 Net(s) highlighted.
+\t (29:00:32) 10 Component(s) highlighted.
+\i (29:00:32) done 
+\i (29:00:32) generaledit 
+\i (29:00:36) xhilite 
+\i (29:00:36) xrefdes Renb 
+\i (29:00:36) xname_flush 
+\i (29:00:36) trapsize 104
+\t (29:00:36) Symbol "Renb" highlighted.
+\i (29:00:36) done 
+\i (29:00:37) generaledit 
+\i (29:00:51) xdehilite 
+\i (29:00:51) xrefdes C1 
+\i (29:00:51) xNet N1397707 
+\i (29:00:51) xNet Gnd 
+\i (29:00:51) xrefdes R2 
+\i (29:00:51) xNet N1398168 
+\i (29:00:51) xNet N1398476 
+\i (29:00:51) xrefdes Rent 
+\i (29:00:51) xrefdes Renb 
+\i (29:00:51) xrefdes C2 
+\i (29:00:51) xrefdes C3 
+\i (29:00:51) xNet Vcc5v 
+\i (29:00:51) xrefdes R3 
+\i (29:00:51) xrefdes R4 
+\i (29:00:51) xNet N1399253 
+\i (29:00:51) xrefdes C4 
+\i (29:00:51) xrefdes U13 
+\i (29:00:51) xNet N11191313 
+\i (29:00:51) xrefdes U6 
+\i (29:00:51) xname_flush 
+\t (29:00:51) 7 Net(s) dehighlighted.
+\t (29:00:51) 11 Component(s) dehighlighted.
+\i (29:00:51) done 
+\i (29:00:51) generaledit 
+\i (29:09:23) xhilite 
+\i (29:09:23) xname_flush 
+\i (29:09:23) done 
+\i (29:09:23) generaledit 
+\i (29:09:37) xdehilite 
+\i (29:09:37) xname_flush 
+\i (29:09:37) done 
+\i (29:09:37) generaledit 
+\i (29:10:22) zoom fit 
+\i (29:10:22) trapsize 1410
+\i (29:11:17) xhilite 
+\i (29:11:17) xname_flush 
+\i (29:11:17) done 
+\i (29:11:17) generaledit 
+\i (29:11:31) xdehilite 
+\i (29:11:31) xname_flush 
+\i (29:11:31) done 
+\i (29:11:31) generaledit 
+\i (29:11:41) new 
+\e (29:11:42) Do you want to save the changes you made to BBB_SIMULATION.brd?
+\i (29:11:50) fillin no 
+\i (29:12:14) newdrawfillin "diode.dra" "Package Symbol"
+\t (29:12:14)     Journal end - Thu Jul 31 20:12:17 2014

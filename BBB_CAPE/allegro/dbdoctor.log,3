@@ -1,0 +1,37 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : BBB_CAPE_PCB_AN_V_1_1.brd                     )
+(    Software Version : 16.6-2015S056                                 )
+(    Date/Time        : Tue May 17 18:43:45 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR IN PAD STACK name = VIA
+  WARNING(SPMHDB-46): Illegal null pad.
+
+ERROR IN PAD STACK name = VIA
+  WARNING(SPMHDB-46): Illegal null pad.
+  Layer GND
+
+ERROR IN PAD STACK name = VIA
+  WARNING(SPMHDB-46): Illegal null pad.
+  Layer MID
+
+ERROR IN PAD STACK name = VIA_DIF
+  WARNING(SPMHDB-46): Illegal null pad.
+
+ERROR IN PAD STACK name = VIA_DIF
+  WARNING(SPMHDB-46): Illegal null pad.
+  Layer GND
+
+ERROR IN PAD STACK name = VIA_DIF
+  WARNING(SPMHDB-46): Illegal null pad.
+  Layer MID
+
+WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
+
+1 warnings, 6 errors detected, 0 errors could be fixed.

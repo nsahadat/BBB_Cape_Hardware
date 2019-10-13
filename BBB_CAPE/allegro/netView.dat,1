@@ -1,0 +1,43 @@
+A!NET_NAME!NET_LOGICAL_PATH!NET_CDS_FSP_UID!NET_SHIELD_NET!NET_RELATIVE_PROPAGATION_DELAY!NET_NO_PIN_ESCAPE!NET_NET_SHORT!NET_VOLTAGE_LAYER!NET_VOLTAGE!NET_RATSNEST_SCHEDULE!NET_CLOCK_NET!NET_NET_PHYSICAL_TYPE!NET_MAX_FINAL_SETTLE!NET_NO_TEST!NET_MAX_EXPOSED_LENGTH!NET_ELECTRICAL_CONSTRAINT_SET!NET_CDS_FSP_BUS_INDEX!NET_STUB_LENGTH!NET_SHIELD_TYPE!NET_NO_RAT!NET_PROPAGATION_DELAY!NET_NO_RIPUP!NET_MIN_HOLD!NET_DIFFERENTIAL_PAIR!NET_MIN_SETUP!NET_MIN_NECK_WIDTH!NET_BUS_NAME!NET_MIN_NOISE_MARGIN!NET_MATCHED_DELAY!NET_ECL!NET_DIFFP_LENGTH_TOL!NET_DIFFP_2ND_LENGTH!NET_NET_GROUP_GRP_NAME!NET_SUBNET_NAME!NET_MIN_BOND_LENGTH!NET_MAX_OVERSHOOT!NET_TS_ALLOWED!NET_MAX_VIA_COUNT!NET_EMC_CRITICAL_NET!NET_CDS_FSP_NET!NET_PROBE_NUMBER!NET_NO_ROUTE!NET_MIN_LINE_WIDTH!NET_ECL_TEMP!NET_NO_GLOSS!NET_ROUTE_PRIORITY!NET_NET_SPACING_TYPE!NET_IMPEDANCE_RULE!
+J!C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/eTDS_PCB_AN_V1_2-PSpiceFiles/allegro/ETDS_PCB_AN_V1_3.brd!Fri Aug 21 13:21:16 2015!0.00!0.00!34000.00!22000.00!0.01!mils!ETDS_PCB_AN_V1_3!28.800000 mil!4!OUT OF DATE!
+S!N11225201!@etds_pcb_an_v1_3.schematic1(sch_1):n11225201!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!DC!@etds_pcb_an_v1_3.schematic1(sch_1):dc!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!DD!@etds_pcb_an_v1_3.schematic1(sch_1):dd!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!DEN_AG!@etds_pcb_an_v1_3.schematic1(sch_1):den_ag!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11213351!@etds_pcb_an_v1_3.schematic1(sch_1):n11213351!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11212186!@etds_pcb_an_v1_3.schematic1(sch_1):n11212186!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!SPI_NCS_S6!@etds_pcb_an_v1_3.schematic1(sch_1):spi_ncs_s6!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!DDEN!@etds_pcb_an_v1_3.schematic1(sch_1):dden!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11207137!@etds_pcb_an_v1_3.schematic1(sch_1):n11207137!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11207183!@etds_pcb_an_v1_3.schematic1(sch_1):n11207183!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11206787!@etds_pcb_an_v1_3.schematic1(sch_1):n11206787!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11200813!@etds_pcb_an_v1_3.schematic1(sch_1):n11200813!!!!!!!!!!!!!!!!!!!!!!!!12 MIL!!!!!!!!!!!!!!!!!12 MIL!!!!!!
+S!N11200809!@etds_pcb_an_v1_3.schematic1(sch_1):n11200809!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11200821!@etds_pcb_an_v1_3.schematic1(sch_1):n11200821!!!!!!!!!!!!!!!!!!!!!!!!12 MIL!!!!!!!!!!!!!!!!!12 MIL!!!!!!
+S!SPI_NCS_S5!@etds_pcb_an_v1_3.schematic1(sch_1):spi_ncs_s5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11201053!@etds_pcb_an_v1_3.schematic1(sch_1):n11201053!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!ANT_OUT!@etds_pcb_an_v1_3.schematic1(sch_1):ant_out!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!20 MIL!!!!!!
+S!N11201169!@etds_pcb_an_v1_3.schematic1(sch_1):n11201169!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11201161!@etds_pcb_an_v1_3.schematic1(sch_1):n11201161!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11200881!@etds_pcb_an_v1_3.schematic1(sch_1):n11200881!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!RESET_N!@etds_pcb_an_v1_3.schematic1(sch_1):reset_n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11201105!@etds_pcb_an_v1_3.schematic1(sch_1):n11201105!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11202415!@etds_pcb_an_v1_3.schematic1(sch_1):n11202415!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11202289!@etds_pcb_an_v1_3.schematic1(sch_1):n11202289!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11202241!@etds_pcb_an_v1_3.schematic1(sch_1):n11202241!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11202301!@etds_pcb_an_v1_3.schematic1(sch_1):n11202301!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11202285!@etds_pcb_an_v1_3.schematic1(sch_1):n11202285!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11202227!@etds_pcb_an_v1_3.schematic1(sch_1):n11202227!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!SPI_NCS_S2!@etds_pcb_an_v1_3.schematic1(sch_1):spi_ncs_s2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!SPI_NCS_S4!@etds_pcb_an_v1_3.schematic1(sch_1):spi_ncs_s4!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!SPI_MOSI!@etds_pcb_an_v1_3.schematic1(sch_1):spi_mosi!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!SPI_NCS_S3!@etds_pcb_an_v1_3.schematic1(sch_1):spi_ncs_s3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!SPI_SCK!@etds_pcb_an_v1_3.schematic1(sch_1):spi_sck!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!SPI_NCS_S1!@etds_pcb_an_v1_3.schematic1(sch_1):spi_ncs_s1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!SPI_MISO!@etds_pcb_an_v1_3.schematic1(sch_1):spi_miso!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!BAT!@etds_pcb_an_v1_3.schematic1(sch_1):bat!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N11206925!@etds_pcb_an_v1_3.schematic1(sch_1):n11206925!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!GND!@etds_pcb_an_v1_3.schematic1(sch_1):gnd!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!V_5V!@etds_pcb_an_v1_3.schematic1(sch_1):v_5v!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!VCC3V!@etds_pcb_an_v1_3.schematic1(sch_1):vcc3v!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!VBAT!@etds_pcb_an_v1_3.schematic1(sch_1):vbat!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

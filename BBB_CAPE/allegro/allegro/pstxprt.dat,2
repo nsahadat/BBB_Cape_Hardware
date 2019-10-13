@@ -1,0 +1,404 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jun-27-2014 at 13:00:06 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TESTPCB';
+ POST_TIME='Sep 10 2012 04:46:09';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C2 'C_C0402_10NF':
+ ROOM='1';
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11091424@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11091424@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11091424@discrete.\c.normal\(chips)',
+ ROOM='1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_C0402_1UF':
+ ROOM='1';
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11091408@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11091408@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11091408@discrete.\c.normal\(chips)',
+ ROOM='1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C32 'C_C0402_1UF':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092829@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092829@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092829@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C38 'C_C0402_5.6PF':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094523@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094523@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094523@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C39 'C_C0402_1UF':
+ ROOM='1';
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11091550@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11091550@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11091550@discrete.\c.normal\(chips)',
+ ROOM='1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_C0402_22PF':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094201@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094201@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094201@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C40 'C_C0402_1NF':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094283@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094283@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094283@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C42 'C_C0402_0.1UF':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11099079@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11099079@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11099079@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_C0402_22PF':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094217@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094217@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094217@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_C0402_1UF':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094045@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094045@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094045@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_C0402_1UF':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094001@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094001@discrete.\c.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094001@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H1 'HEADER1X1_3_ANTENNA_HEADER1X1':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094399@TESTPCB.HEADER1X1_3.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094399@testpcb.\header1x1_3.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094399@testpcb.\header1x1_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H10 'HEADER7X1_0_H10_HEADER5X2':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092009@ETDS-L-M-OCT2013.HEADER7X1_0.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092009@\etds-l-m-oct2013\.\header7x1_0.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092009@\etds-l-m-oct2013\.\header7x1_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H11 'HEADER7X1_0_H10_HEADER5X2':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092099@ETDS-L-M-OCT2013.HEADER7X1_0.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092099@\etds-l-m-oct2013\.\header7x1_0.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092099@\etds-l-m-oct2013\.\header7x1_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H5 'HEADER1X1_2_H1_HEADER1X1':
+ ROOM='1';
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11091496@TESTPCB.HEADER1X1_2.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11091496@testpcb.\header1x1_2.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11091496@testpcb.\header1x1_2.normal\(chips)',
+ ROOM='1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H6 'HEADER1X1_0_MICROUSB_HEADER5X1':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11091604@TESTPCB.HEADER1X1_0.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11091604@testpcb.\header1x1_0.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11091604@testpcb.\header1x1_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ H8 'HEADER1X1_1_H1_HEADER1X1':
+ ROOM='1';
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11091510@TESTPCB.HEADER1X1_1.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11091510@testpcb.\header1x1_1.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11091510@testpcb.\header1x1_1.normal\(chips)',
+ ROOM='1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON5_0_H5X2_CON5':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11093833@ETDS-L-M-OCT2013.CON5_0.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11093833@\etds-l-m-oct2013\.\con5_0.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11093833@\etds-l-m-oct2013\.\con5_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_L0402_10NH':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094325@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094325@discrete.\inductor.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094325@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_L0402_BEAD':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094153@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094153@discrete.\inductor.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094153@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED1 'BRPG1204_0_LEDAP_APBL3025':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092747@ETDS.BRPG1204_0.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092747@etds.\brpg1204_0.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092747@etds.\brpg1204_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'MOSFET P_0_MOS_DMP_DMP22D6UT':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092717@ETDS.MOSFET P_0.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092717@etds.\mosfet p_0.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092717@etds.\mosfet p_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'DMN5L06K_MOS_DMN_DMN5L06K':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092695@MYIN.DMN5L06K.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092695@myin.\dmn5l06k.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092695@myin.\dmn5l06k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092663@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092663@discrete.\r.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092663@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'R_R0402_8K':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092647@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092647@discrete.\r.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092647@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_R0402_56K':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094017@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094017@discrete.\r.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094017@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R40 'R_R0402_3.9K':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092679@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092679@discrete.\r.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092679@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R41 'R_R0402_100K':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094169@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094169@discrete.\r.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094169@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R42 'R_R0402_200K':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094257@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094257@discrete.\r.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094257@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R43 'R_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092539@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092539@discrete.\r.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092539@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 'R_R0402_2.7K':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094185@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094185@discrete.\r.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094185@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ S1 'SW_0_SWITCH_CSS-1210B':
+ ROOM='1';
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11091618@ETDS.SW_0.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11091618@etds.\sw_0.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11091618@etds.\sw_0.normal\(chips)',
+ ROOM='1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'TPS71730_0_TPS71730_TPS71730':
+ ROOM='1';
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11091448@ETDS.TPS71730_0.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11091448@etds.\tps71730_0.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11091448@etds.\tps71730_0.normal\(chips)',
+ ROOM='1',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'LTC4054_0_LTC4054_LTC4054':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11092777@ETDS.LTC4054_0.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11092777@etds.\ltc4054_0.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11092777@etds.\ltc4054_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'BALUN_BD2425N50ATI_1_BALUN_BD24':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094349@ETDS.BALUN_BD2425N50ATI_1.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094349@etds.\balun_bd2425n50ati_1.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094349@etds.\balun_bd2425n50ati_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'CC2510F32RSPR_1_CC2510_1':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11093887@ETDS.CC2510F32RSPR_1.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11093887@etds.\cc2510f32rspr_1.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11093887@etds.\cc2510f32rspr_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+PART_NAME
+ U8 'MPU9250_1_MPU9250_MPU9250':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11098479@TESTPCB.MPU9250_1.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11098479@testpcb.\mpu9250_1.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11098479@testpcb.\mpu9250_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_2_CRYST_26M_26MHZ':;
+
+SECTION_NUMBER 1
+ '@TESTPCB.SCHEMATIC1(SCH_1):INS11094077@ETDS-L-M-OCT2013.CRYSTAL_2.NORMAL(CHIPS)':
+ C_PATH='@testpcb.schematic1(sch_1):ins11094077@\etds-l-m-oct2013\.\crystal_2.normal\(chips)',
+ P_PATH='@testpcb.schematic1(sch_1):page1_ins11094077@\etds-l-m-oct2013\.\crystal_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

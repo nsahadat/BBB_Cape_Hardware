@@ -1,0 +1,70 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Wed Nov 11 17:13:37 2015
+# 
+# Allegro PCB Router v16-6-112 made 2015/06/07 at 22:54:31
+# Running on: ts418-17, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/allegro\ETDS_PCB_V1_5_name.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/allegro/specctra.did
+# Current time = Wed Nov 11 17:13:38 2015
+# PCB C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/allegro
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=7442.6500 ylo=16520.1000 xhi=8671.3500 yhi=17155.9000
+# Total 30 Images Consolidated.
+# Via VIA z=1, 4 xlo= -7.5000 ylo= -7.5000 xhi=  7.5000 yhi=  7.5000
+# Via VIA_VCC z=1, 4 xlo=-12.5000 ylo=-12.5000 xhi= 12.5000 yhi= 12.5000
+# 
+#    VIA     TOP     GND   VCC3V  BOTTOM
+# 
+#    TOP  ------   VIA     VIA     VIA  
+#    GND   VIA    ------   VIA     VIA  
+#  VCC3V   VIA     VIA    ------   VIA  
+# BOTTOM   VIA     VIA     VIA    ------
+# 
+# <<WARNING:>> Potential non fixed positive shape alignment with the host CAD system exists.
+#              Allegro PCB Router does not perform any operations to remove or identify slivers and isolations.
+#              If the host CAD system performs such an operation, the user may experience unrouted
+#              or DRC alignment issues.
+#              The user must perform final unrouted/DRC validation within the host CAD system.
+# Wires Processed 311, Vias Processed 71
+# Using colormap in design file.
+# Layers Processed: Signal Layers 4
+# Components Placed 49, Images Processed 70, Padstacks Processed 37
+# Nets Processed 43, Net Terminals 278
+# PCB Area=645626.000  EIC=14  Area/EIC=46116.143  SMDs=45
+# Total Pin Count: 202
+# Signal Connections Created 1
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer GND Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer VCC3V Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/allegro\ETDS_PCB_V1_5_name.dsn
+# Nets 43 Connections 164 Unroutes 1
+# Signal Layers 4 Power Layers 0
+# Wire Junctions 15, at vias 7 Total Vias 71
+# Percent Connected    0.00
+# Manhattan Length 40794.2750 Horizontal 26493.6080 Vertical 14300.6670
+# Routed Length 17450.5245 Horizontal 12183.1700 Vertical 6951.5300
+# Ratio Actual / Manhattan   0.4278
+# Unconnected Length  72.4000 Horizontal  64.6100 Vertical   7.7900
+# Total Conflicts: 513 (Cross: 0, Clear: 513, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Loading Do File pasde.do ...
+# Loading Do File C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/allegro\ETDS_PCB_V1_5_name_rules.do ...
+# Nets 'X-' and X+ have been defined as a balanced pair.
+# Colormap Written to File _notify.std
+# Total Conflicts: 508 (Cross: 0, Clear: 508, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Enter command <quit

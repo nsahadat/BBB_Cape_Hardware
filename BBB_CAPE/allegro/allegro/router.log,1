@@ -1,0 +1,25 @@
+
+---------------------------------------------------------------------------
+BOARD: C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro/TESTPCB.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Wed Jun 25 16:14:14 2014        HOST: TS422-02
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        96    0    0 100%    0   60    13.0  0:06:28  0:00:00
+  1s 1-1  oldrouter    0    2    2  97%    0   57    13.0  0:06:28  0:00:12
+
+---------------------------------------------------------------------------
+BOARD: C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro/TESTPCB.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Wed Jun 25 16:14:27 2014        HOST: TS422-02
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        96    2    2  97%    0   57    13.0  0:06:41  0:00:13
+
+---------------------------------------------------------------------------
+BOARD: C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro/TESTPCB.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Wed Jun 25 16:14:58 2014        HOST: TS422-02
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        96    2    2  97%    0   57    12.0  0:07:11  0:00:43

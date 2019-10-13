@@ -1,0 +1,52 @@
+  Revised: Wednesday, June 25, 2014
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials           June 25,2014      14:41:16	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	C2	10nF
+2	5	C3	1uF
+		C7	1uF
+		C8	1uF
+		C32	1uF
+		C39	1uF
+3	2	C4	22pF
+		C5	22pF
+4	1	C38	5.6pF
+5	1	C40	1nF
+6	1	C42	0.1uF
+7	3	H1	Header1X1
+		H5	Header1X1
+		H8	Header1X1
+8	1	H6	Header5X1
+9	2	H10	Header5X2
+		H11	Header5X2
+10	1	J2	CON5
+11	1	LED1	APBL3025
+12	1	L1	10nH
+13	1	L2	BEAD
+14	1	Q1	DMP22D6UT
+15	1	Q2	DMN5L06K
+16	1	R4	56k
+17	1	R28	10k
+18	1	R29	8k
+19	1	R40	3.9k
+20	1	R41	100k
+21	1	R42	200k
+22	1	R43	1k
+23	1	R44	2.7k
+24	1	S1	CSS-1210B
+25	1	U1	TPS71730
+26	1	U2	LTC4054
+27	1	U5	BD2425N50ATI
+28	1	U7A	1
+29	1	U8	MPU9250
+30	1	Y1	26MHz

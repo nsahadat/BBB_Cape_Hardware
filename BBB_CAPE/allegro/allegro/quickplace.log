@@ -1,0 +1,65 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : TESTPCB.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jun 24 16:46:28 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U7 / CC2510F32RSPR_1_CC2510_1 / CC2510 at (7655.50 17196.50)
+         Placed symbol:  U8 / MPU9250_0_MPU9250_MPU9250 / MPU9250 at (7879.00 17127.00)
+         Placed symbol:  J2 / CON5_0_H5X2_CON5 / H5X2 at (7961.00 17054.00)
+         Placed symbol:  H11 / HEADER7X1_0_H10_HEADER5X2 / H10 at (8243.00 17049.24)
+         Placed symbol:  H10 / HEADER7X1_0_H10_HEADER5X2 / H10 at (8358.00 17049.24)
+         Placed symbol:  H6 / HEADER1X1_0_MICROUSB_HEADER5X1 / MICROUSB at (7512.50 17347.00)
+         Placed symbol:  U1 / TPS71730_0_TPS71730_TPS71730 / TPS71730 at (7704.10 17347.00)
+         Placed symbol:  U2 / LTC4054_0_LTC4054_LTC4054 / LTC4054 at (7791.10 17347.00)
+         Placed symbol:  LED1 / BRPG1204_0_LEDAP_APBL3025 / LEDAP at (7909.10 17347.00)
+         Placed symbol:  Y1 / CRYSTAL_2_CRYST_26M_26MHZ / CRYST_26M at (8113.10 17341.00)
+         Placed symbol:  U5 / BALUN_BD2425N50ATI_1_BALUN_BD24 / BALUN at (8248.10 17346.00)
+         Placed symbol:  Q1 / MOSFET P_0_MOS_DMP_DMP22D6UT / MOS_DMP at (8315.10 17347.00)
+         Placed symbol:  Q2 / DMN5L06K_MOS_DMN_DMN5L06K / MOS_DMN at (8437.10 17347.00)
+         Placed symbol:  S1 / SW_0_SWITCH_CSS-1210B / SWITCH at (7513.00 17662.20)
+         Placed symbol:  C4 / C_C0402_22PF / C0402 at (7668.00 17648.20)
+         Placed symbol:  C2 / C_C0402_10NF / C0402 at (7744.00 17648.20)
+         Placed symbol:  C5 / C_C0402_22PF / C0402 at (7820.00 17648.20)
+         Placed symbol:  C8 / C_C0402_1UF / C0402 at (7896.00 17648.20)
+         Placed symbol:  C39 / C_C0402_1UF / C0402 at (7972.00 17648.20)
+         Placed symbol:  C38 / C_C0402_5.6PF / C0402 at (8048.00 17648.20)
+         Placed symbol:  C7 / C_C0402_1UF / C0402 at (8124.00 17648.20)
+         Placed symbol:  C32 / C_C0402_1UF / C0402 at (8200.00 17648.20)
+         Placed symbol:  C40 / C_C0402_1NF / C0402 at (8276.00 17648.20)
+         Placed symbol:  C3 / C_C0402_1UF / C0402 at (8352.00 17648.20)
+         Placed symbol:  R28 / R_R0402_10K / R0402 at (8432.00 17662.20)
+         Placed symbol:  R29 / R_R0402_8K / R0402 at (8508.00 17662.20)
+         Placed symbol:  R4 / R_R0402_56K / R0402 at (7513.00 17880.20)
+         Placed symbol:  R40 / R_R0402_3.9K / R0402 at (7589.00 17880.20)
+         Placed symbol:  R41 / R_R0402_100K / R0402 at (7665.00 17880.20)
+         Placed symbol:  R42 / R_R0402_200K / R0402 at (7741.00 17880.20)
+         Placed symbol:  R43 / R_R0402_1K / R0402 at (7817.00 17880.20)
+         Placed symbol:  R44 / R_R0402_2.7K / R0402 at (7893.00 17880.20)
+         Placed symbol:  L2 / INDUCTOR_L0402_BEAD / L0402 at (7969.00 17880.20)
+         Placed symbol:  L1 / INDUCTOR_L0402_10NH / L0402 at (8045.00 17880.20)
+         Placed symbol:  C42 / C_C0402_0.1UF / C0402 at (8117.00 17866.20)
+         Placed symbol:  H8 / HEADER1X1_1_H1_HEADER1X1 / H1 at (8197.00 17880.20)
+         Placed symbol:  H5 / HEADER1X1_2_H1_HEADER1X1 / H1 at (8280.00 17880.20)
+         Placed symbol:  H1 / HEADER1X1_3_ANTENNA_HEADER1X1 / ANTENNA at (8361.00 17879.20)
+
+
+Placed 38 of 38 applicable (38 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+
+
+Placed 0 of 0 applicable (0 total) symbols.
+
+-----------------------------------------------------------------------
+

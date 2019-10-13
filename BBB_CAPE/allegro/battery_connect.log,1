@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : battery_connect.dra                           )
+(    Software Version : 16.6-2015S056                                 )
+(    Date/Time        : Wed Sep 16 11:50:00 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro
+    Name      = battery_connect.psm
+    User      = msahadat3
+    Machine   = TS418-17
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

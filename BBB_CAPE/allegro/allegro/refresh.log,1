@@ -1,0 +1,108 @@
+Fri Jun 27 13:30:25 2014				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Fri Jun 27 13:30:25 2014
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : TESTPCB.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jun 27 13:30:25 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Jun 27 13:30:25 2014				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design = 'C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro/TESTPCB.brd'
+Output design = ''
+Update mechanical symbols = 'NO'
+Update format symbols = 'NO'
+Update package symbols = 'YES'
+Update shape/flash symbols = 'YES'
+Update symbol padstacks = 'YES'
+Reset symbol text and size locations = 'NO'
+Reset Pin Escapes (fanouts) = 'NO'
+Ripup Etch = 'NO'
+Reset custom drill data = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+
+------ Symbol Refresh Messages ------
+
+'MPU9250'  symbol refreshed successfully.
+'ANTENNA'  symbol refreshed successfully.
+'H1'  symbol refreshed successfully.
+'L0402'  symbol refreshed successfully.
+'R0402'  symbol refreshed successfully.
+'C0402'  symbol refreshed successfully.
+'SWITCH'  symbol refreshed successfully.
+'MOS_DMN'  symbol refreshed successfully.
+'MOS_DMP'  symbol refreshed successfully.
+'BALUN'  symbol refreshed successfully.
+'CRYST_26M'  symbol refreshed successfully.
+'LEDAP'  symbol refreshed successfully.
+'LTC4054'  symbol refreshed successfully.
+'TPS71730'  symbol refreshed successfully.
+'MICROUSB'  symbol refreshed successfully.
+'H10'  symbol refreshed successfully.
+'H5X2'  symbol refreshed successfully.
+'CC2510'  symbol refreshed successfully.
+'AB00'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'SMD100REC100'  pad stack refreshed successfully.
+'SMD12REC7'  pad stack refreshed successfully.
+'SMD138REC39'  pad stack refreshed successfully.
+'SMD50REC10'  pad stack refreshed successfully.
+'SMD12REC12'  pad stack refreshed successfully.
+'SMD40REC40'  pad stack refreshed successfully.
+'SMD32REC40'  pad stack refreshed successfully.
+'SMD50REC50'  pad stack refreshed successfully.
+'SMD70REC70'  pad stack refreshed successfully.
+'SMD16REC25'  pad stack refreshed successfully.
+'SMD16REC36'  pad stack refreshed successfully.
+'SMD54REC18'  pad stack refreshed successfully.
+'SMD67REC41'  pad stack refreshed successfully.
+'SMD100REC32'  pad stack refreshed successfully.
+'SMD25REC49'  pad stack refreshed successfully.
+'SMD19REC19'  pad stack refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Completed refreshing all symbols successfully.

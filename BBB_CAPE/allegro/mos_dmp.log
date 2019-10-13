@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MOS_DMP.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jun 20 17:25:05 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro
+    Name      = mos_dmp.psm
+    User      = msahadat3
+    Machine   = TS422-02
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

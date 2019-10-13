@@ -1,0 +1,340 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : TESTPCB.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sun Jul 06 16:17:52 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                5.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+
+     GND created.
+
+
+================================================================
+     PROCESSING FILM < VCC3V >
+     TO FILE < C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/VCC3V.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01500                                  DARK 
+
+     VCC3V created.
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  RECTANGLE  0.01200     x 0.00700       0.000 NO     DARK 
+  RECTANGLE  0.01200     x 0.00700      90.000 NO     DARK 
+  RECTANGLE  0.01200     x 0.01200       0.000 NO     DARK 
+  RECTANGLE  0.01900     x 0.01900       0.000 NO     DARK 
+  RECTANGLE  0.01900     x 0.01900      90.000 NO     DARK 
+  RECTANGLE  0.03000     x 0.03000      90.000 NO     DARK 
+  RECTANGLE  0.04000     x 0.04000      90.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.01000       0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.01000      90.000 NO     DARK 
+  RECTANGLE  0.07000     x 0.07000      90.000 NO     DARK 
+  RECTANGLE  0.10000     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.10000     x 0.10000       0.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  RECTANGLE  0.01574     x 0.02500       0.000 NO     DARK 
+  RECTANGLE  0.01600     x 0.03600       0.000 NO     DARK 
+  RECTANGLE  0.01900     x 0.01900       0.000 NO     DARK 
+  RECTANGLE  0.01900     x 0.01900      90.000 NO     DARK 
+  RECTANGLE  0.02500     x 0.04900       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.04000       0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.01000       0.000 NO     DARK 
+  RECTANGLE  0.05000     x 0.05000       0.000 NO     DARK 
+  RECTANGLE  0.05400     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.04134       0.000 NO     DARK 
+  RECTANGLE  0.13800     x 0.03937       0.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (7699.00 16664.00)
+           ... using undefined line width of 5.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 5.00
+
+    WARNING: 0 width line found at (7903.50 16946.50)
+           ... using undefined line width of 5.00
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 5.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+
+     SILKSCREEN_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+
+     SILKSCREEN_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < PHOTOPLOTAREA >
+     TO FILE < C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/PHOTOPLOTAREA.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+
+     PHOTOPLOTAREA created.
+
+
+================================================================
+     PROCESSING FILM < SOLDEMASK_TOP >
+     TO FILE < C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/SOLDEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  RECTANGLE  0.01700     x 0.01200       0.000 NO     DARK 
+  RECTANGLE  0.01700     x 0.01200      90.000 NO     DARK 
+  RECTANGLE  0.01700     x 0.01700       0.000 NO     DARK 
+  RECTANGLE  0.02400     x 0.02400       0.000 NO     DARK 
+  RECTANGLE  0.02400     x 0.02400      90.000 NO     DARK 
+  RECTANGLE  0.03500     x 0.03500      90.000 NO     DARK 
+  RECTANGLE  0.04500     x 0.04500      90.000 NO     DARK 
+  RECTANGLE  0.05500     x 0.01500       0.000 NO     DARK 
+  RECTANGLE  0.05500     x 0.01500      90.000 NO     DARK 
+  RECTANGLE  0.07500     x 0.07500      90.000 NO     DARK 
+  RECTANGLE  0.10500     x 0.03700       0.000 NO     DARK 
+  RECTANGLE  0.10500     x 0.10500       0.000 NO     DARK 
+
+     SOLDEMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  RECTANGLE  0.02000     x 0.03000       0.000 NO     DARK 
+  RECTANGLE  0.02100     x 0.04100       0.000 NO     DARK 
+  RECTANGLE  0.02400     x 0.02400       0.000 NO     DARK 
+  RECTANGLE  0.02400     x 0.02400      90.000 NO     DARK 
+  RECTANGLE  0.03000     x 0.05400       0.000 NO     DARK 
+  RECTANGLE  0.03600     x 0.04500       0.000 NO     DARK 
+  RECTANGLE  0.05500     x 0.01500       0.000 NO     DARK 
+  RECTANGLE  0.05500     x 0.05500       0.000 NO     DARK 
+  RECTANGLE  0.05900     x 0.02300       0.000 NO     DARK 
+  RECTANGLE  0.07200     x 0.04600       0.000 NO     DARK 
+  RECTANGLE  0.14300     x 0.04500       0.000 NO     DARK 
+
+     SOLDERMASK_BOTTOM created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        GND created.
+        VCC3V created.
+        TOP created.
+        BOTTOM created.
+        SILKSCREEN_TOP created with warnings
+        SILKSCREEN_BOTTOM created.
+        PHOTOPLOTAREA created.
+        SOLDEMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+
+ ARTWORK finished

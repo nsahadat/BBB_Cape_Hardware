@@ -1,0 +1,17 @@
+Spec:
+Number of layer : 4
+Layer stack: Top --> GND --> VCC --> Bottom
+Trace width (min) : 5 mils
+Number of board assembly : 50
+
+
+
+Shipping address:
+Maysam Ghovanloo
+85 5th street NW
+TSRB Room 422
+Atlanta
+GA 30308
+USA 
+
+Type of shipping: normal

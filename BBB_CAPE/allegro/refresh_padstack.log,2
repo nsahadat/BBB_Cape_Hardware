@@ -1,0 +1,102 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : BBB_SIMULATION.brd                            )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Jul 23 17:37:00 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Jul 23 17:37:00 2014				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'C:/Users/msahadat3/Dropbox/GATech/BBB_CAPE/allegro/BBB_SIMULATION.brd'
+Output design = ''
+Reset symbol text and size locations = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+'PAD65CIR42D'  pad stack refresh starting.
+
+     'PAD65CIR42D'  pad stack refreshed successfully.
+     
+'SMD100REC100'  pad stack refresh starting.
+
+     'SMD100REC100'  pad stack refreshed successfully.
+     
+'SMD19REC19'  pad stack refresh starting.
+
+     'SMD19REC19'  pad stack refreshed successfully.
+     
+'SMD12REC12'  pad stack refresh starting.
+
+     'SMD12REC12'  pad stack refreshed successfully.
+     
+'SMD40REC40'  pad stack refresh starting.
+
+     'SMD40REC40'  pad stack refreshed successfully.
+     
+'RX410Y406D0T'  pad stack refresh starting.
+
+     'RX410Y406D0T'  pad stack refreshed successfully.
+     
+'RX29Y93D0T'  pad stack refresh starting.
+
+     'RX29Y93D0T'  pad stack refreshed successfully.
+     
+'SMD100REC32'  pad stack refresh starting.
+
+     'SMD100REC32'  pad stack refreshed successfully.
+     
+'RX54Y12D0T'  pad stack refresh starting.
+
+     'RX54Y12D0T'  pad stack refreshed successfully.
+     
+'RX128Y198D0T'  pad stack refresh starting.
+
+     'RX128Y198D0T'  pad stack refreshed successfully.
+     
+'RX58Y14D0TSM'  pad stack refresh starting.
+
+     'RX58Y14D0TSM'  pad stack refreshed successfully.
+     
+'SMD70REC70'  pad stack refresh starting.
+
+     'SMD70REC70'  pad stack refreshed successfully.
+     
+'SMD50REC10'  pad stack refresh starting.
+
+     'SMD50REC10'  pad stack refreshed successfully.
+     
+'SMD196REC177'  pad stack refresh starting.
+
+     'SMD196REC177'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

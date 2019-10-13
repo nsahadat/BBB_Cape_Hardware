@@ -1,0 +1,26 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Without Nets Report                                        )
+(                                                                     )
+(    Drawing          : BBB_SIMULATION.brd                            )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Jul 24 16:17:58 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total shapes not on a net: 3
+
+
+  <<<  ETCH  >>>
+
+    Layer = VCC3V
+	Point on shape: (6113.01 15924.01)  Net: Dummy Net
+
+    Layer = GND
+	Point on shape: (6113.01 15924.01)  Net: Dummy Net
+
+    Layer = BOTTOM
+	Point on shape: (6113.01 15924.01)  Net: Dummy Net
+
+    To suppress in report attach OK_UNASSIGNED_SHAPE property to shape.

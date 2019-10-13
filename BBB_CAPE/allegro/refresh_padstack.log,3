@@ -1,0 +1,54 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : barrelCon.dra                                 )
+(    Software Version : 16.6-2015S056                                 )
+(    Date/Time        : Tue May 17 19:37:25 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue May 17 19:37:25 2016				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/Users/msahadat3/Dropbox/GATech/BBB_CAPE/allegro/barrelCon.dra'
+Output design = ''
+Reset symbol text and size locations   = 'YES'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/CADENCE/SPB_16.6/share/local/pcb/symbols 
+           C:/CADENCE/SPB_16.6/share/PCB/pcb_lib/symbols 
+           C:/CADENCE/SPB_16.6/share/PCB/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/CADENCE/SPB_16.6/share/local/pcb/padstacks 
+           C:/CADENCE/SPB_16.6/share/PCB/pcb_lib/symbols 
+           C:/CADENCE/SPB_16.6/share/PCB/allegrolib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'PADMM3P5RECT1'  pad stack refresh starting.
+
+     'PADMM3P5RECT1'  pad stack refreshed successfully.
+     
+'PADMM1RECT3'  pad stack refresh starting.
+
+     'PADMM1RECT3'  pad stack refreshed successfully.
+     
+'PADMM1RECT3P5'  pad stack refresh starting.
+
+     'PADMM1RECT3P5'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

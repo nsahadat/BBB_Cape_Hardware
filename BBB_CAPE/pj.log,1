@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : PJ.dra                                        )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jul 22 17:52:51 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/msahadat3/Dropbox/GATech/BBB_CAPE
+    Name      = pj.psm
+    User      = msahadat3
+    Machine   = TS422-02
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

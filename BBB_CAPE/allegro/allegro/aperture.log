@@ -1,0 +1,89 @@
+Wed Jun 25 19:16:20 2014				Page     1
+
+Photoplot log file
+Results from aperture table.
+
+
+INPUT-UNITS     INCHES
+
+WHEEL     1
+
+LINE               4            D78
+LINE               5            D77
+LINE               6            D79
+LINE               8            D80
+LINE              10            D81
+LINE              25            D82
+CIRCLE             4            D30
+CIRCLE             5            D26
+CIRCLE            10            D31
+CIRCLE            15            D29
+CIRCLE            20            D27
+CIRCLE            44            D32
+RECTANGLE          7        12   0.00000  D11
+RECTANGLE          9        18   0.00000  D15
+RECTANGLE         10        50   0.00000  D70
+RECTANGLE         12         7   0.00000  D10
+RECTANGLE         12        12   0.00000  D37
+RECTANGLE         12        17   0.00000  D13
+RECTANGLE         14        23   0.00000  D17
+RECTANGLE         15        55   0.00000  D72
+RECTANGLE      15.74        25   0.00000  D55
+RECTANGLE         16        36   0.00000  D43
+RECTANGLE         17        12   0.00000  D12
+RECTANGLE         17        17   0.00000  D38
+RECTANGLE         18         9   0.00000  D14
+RECTANGLE         18        54   0.00000  D19
+RECTANGLE         19        19   0.00000  D75
+RECTANGLE         20        30   0.00000  D57
+RECTANGLE         20       150   0.00000  D64
+RECTANGLE         21        41   0.00000  D45
+RECTANGLE         23        14   0.00000  D16
+RECTANGLE         23        59   0.00000  D21
+RECTANGLE         24        24   0.00000  D76
+RECTANGLE         25     15.74   0.00000  D56
+RECTANGLE         25        49   0.00000  D39
+RECTANGLE         25       155   0.00000  D66
+RECTANGLE         30        20   0.00000  D58
+RECTANGLE         30        54   0.00000  D41
+RECTANGLE       31.5        40   0.00000  D51
+RECTANGLE         32       100   0.00000  D23
+RECTANGLE         36        16   0.00000  D44
+RECTANGLE         36        45   0.00000  D53
+RECTANGLE         37       105   0.00000  D25
+RECTANGLE      39.37       138   0.00000  D48
+RECTANGLE         40      31.5   0.00000  D52
+RECTANGLE         40        40   0.00000  D35
+RECTANGLE         41        21   0.00000  D46
+Wed Jun 25 19:16:20 2014				Page     2
+
+Photoplot log file
+Results from aperture table.
+
+RECTANGLE      41.34     66.93   0.00000  D60
+RECTANGLE         45        36   0.00000  D54
+RECTANGLE         45        45   0.00000  D36
+RECTANGLE         45       143   0.00000  D50
+RECTANGLE         46        72   0.00000  D62
+RECTANGLE         49        25   0.00000  D40
+RECTANGLE         50        10   0.00000  D69
+RECTANGLE         50        50   0.00000  D67
+RECTANGLE         54        18   0.00000  D18
+RECTANGLE         54        30   0.00000  D42
+RECTANGLE         55        15   0.00000  D71
+RECTANGLE         55        55   0.00000  D68
+RECTANGLE         59        23   0.00000  D20
+RECTANGLE      66.93     41.34   0.00000  D59
+RECTANGLE         70        70   0.00000  D33
+RECTANGLE         72        46   0.00000  D61
+RECTANGLE         75        75   0.00000  D34
+RECTANGLE        100        32   0.00000  D22
+RECTANGLE        100       100   0.00000  D73
+RECTANGLE        105        37   0.00000  D24
+RECTANGLE        105       105   0.00000  D74
+RECTANGLE        138     39.37   0.00000  D47
+RECTANGLE        143        45   0.00000  D49
+RECTANGLE        150        20   0.00000  D63
+RECTANGLE        155        25   0.00000  D65
+FLASH     AB00                 0.00000  D28
+

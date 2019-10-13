@@ -1,0 +1,16 @@
+Date and Time : 06/25/14 14:27:58
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict S1,Com  Bidirectional Connected to Output
+                    SCHEMATIC1, PAGE1  (2.84, 5.83) 
+WARNING(ORCAP-1608): Net has no driving source N11092091 
+                    SCHEMATIC1, PAGE1  (10.27, 6.33) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections N11092091 
+                    SCHEMATIC1, PAGE1  (10.27, 6.33) 
+
+Checking For Unconnected Bus Nets

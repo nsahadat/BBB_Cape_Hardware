@@ -1,0 +1,62 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : BBB_SIMULATION.brd                            )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jul 22 20:20:54 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U10 / CONNECT22X2_CONNECT22X2_CONNECT / CONNECT22X2 at (6296.00 19758.00)
+         Placed symbol:  U9 / CONNECT22X2_CONNECT22X2_CONNECT / CONNECT22X2 at (6592.00 19758.00)
+         Placed symbol:  U7 / CC2510F32RSPR_1_CC2510_1 / CC2510 at (6849.00 18257.00)
+         Placed symbol:  U11 / AD5724AREZ_AD5724_VALUE / AD5724 at (7156.00 18273.50)
+         Placed symbol:  U12 / TXB0108_PW_20_TXB0108_VALUE / TXB0108 at (7454.00 18242.00)
+         Placed symbol:  U1 / DB9_3_H5X2_DB9 / H5X2 at (7602.00 18108.00)
+         Placed symbol:  J2 / CON5_0_H5X2_CON5 / H5X2 at (7889.00 18108.00)
+         Placed symbol:  U13 / LMZ14203_NDW_7_LMZ14203_VALUE / LMZ14203 at (6317.00 20683.00)
+         Placed symbol:  Y1 / CRYSTAL_2_CRYST_26M_26MHZ / CRYST_26M at (6532.00 20310.00)
+         Placed symbol:  U8 / BALUN_BD2425N50ATI_1_BALUN_BD24 / BALUN at (6667.00 20315.00)
+         Placed symbol:  C38 / C_C0402_5.6PF / C0402 at (6739.00 20302.00)
+         Placed symbol:  C40 / C_C0402_1NF / C0402 at (6815.00 20302.00)
+         Placed symbol:  C42 / C_C0402_0.1UF / C0402 at (6891.00 20302.00)
+         Placed symbol:  C45 / C_C0402_100NF / C0402 at (6967.00 20302.00)
+         Placed symbol:  C4 / C_C0402_0.022UF / C0402 at (7043.00 20302.00)
+         Placed symbol:  C3 / C_C0402_100UF / C0402 at (7119.00 20302.00)
+         Placed symbol:  L2 / INDUCTOR_L0402_BEAD / L0402 at (7199.00 20316.00)
+         Placed symbol:  R2 / R_0_R0402_100K / R0402 at (7275.00 20316.00)
+         Placed symbol:  L1 / INDUCTOR_L0402_10NH / L0402 at (7351.00 20316.00)
+         Placed symbol:  C2 / C_C0402_0.022UF / C0402 at (7423.00 20302.00)
+         Placed symbol:  C14 / C_C0402_22PF / C0402 at (7499.00 20302.00)
+         Placed symbol:  C13 / C_C0402_22PF / C0402 at (7575.00 20302.00)
+         Placed symbol:  R50 / R_0_JUMPER2_0 / JUMPER2 at (7671.00 20316.00)
+         Placed symbol:  R51 / R_0_JUMPER2_0 / JUMPER2 at (7895.00 20316.00)
+         Placed symbol:  R52 / R_0_JUMPER2_0 / JUMPER2 at (8119.00 20316.00)
+         Placed symbol:  R53 / R_0_JUMPER2_0 / JUMPER2 at (8343.00 20316.00)
+         Placed symbol:  R54 / R_0_JUMPER2_0 / JUMPER2 at (6124.00 20902.00)
+         Placed symbol:  R55 / R_0_JUMPER2_0 / JUMPER2 at (6348.00 20902.00)
+         Placed symbol:  R56 / R_0_JUMPER2_0 / JUMPER2 at (6572.00 20902.00)
+         Placed symbol:  R5 / R_R0402_56K / R0402 at (6780.00 20902.00)
+         Placed symbol:  RENB / R_R0402_11.8K / R0402 at (6856.00 20902.00)
+         Placed symbol:  RENT / R_R0402_68.1K / R0402 at (6932.00 20902.00)
+         Placed symbol:  C12 / C_C0402_1UF / C0402 at (7004.00 20888.00)
+         Placed symbol:  C11 / C_C0402_1UF / C0402 at (7080.00 20888.00)
+         Placed symbol:  C41 / C_C0402_10UF / C0402 at (7156.00 20888.00)
+         Placed symbol:  R3 / R_0_R0402_5.62K / R0402 at (7236.00 20902.00)
+         Placed symbol:  R44 / R_R0402_2.7K / R0402 at (7312.00 20902.00)
+         Placed symbol:  R4 / R_0_R0402_1.07K / R0402 at (7388.00 20902.00)
+ERROR:   Cannot place symbol:  U6 / PJACK_PJ_PJACK / PJ
+         due to ERROR(SPMHGE-82): Pin numbers do not match between symbol and component. Run dev_check on device file for more information.
+         Placed symbol:  R49 / R_0_JUMPER2_0 / JUMPER2 at (8176.00 20902.00)
+         Placed symbol:  C1 / C_C0402_10UF / C0402 at (8380.00 20888.00)
+         Placed symbol:  H1 / HEADER1X1_3_ANTENNA_HEADER1X1 / ANTENNA at (6106.00 21541.00)
+
+
+Placed 41 of 42 applicable (42 total) symbols.
+
+-----------------------------------------------------------------------
+

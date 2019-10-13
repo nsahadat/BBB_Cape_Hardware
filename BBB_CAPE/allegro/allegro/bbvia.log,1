@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Automatic B/B Via Creation                               )
+(                                                                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jun 20 21:22:22 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Via to be copied: Smd70rec70
+Start subclass: TOP
+End subclass: GND
+Old drawing: C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/#Taaaabf05216.tmp
+New drawing: C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/#Taaaabf05216.tmp
+Vias added to physical constraint set: DEFAULT
+
+*ERROR: SMD70REC70 is not defined on layer GND. B/B via TOP-GND cannot be created.
+
+Number of padstacks created 0
+Number of existing padstacks that did not need to be modified: 0
+Number of existing padstacks that were modified: 0
+Number of existing padstacks that could not be modified: 0
+
+bbvia is complete.

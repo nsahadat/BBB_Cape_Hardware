@@ -1,0 +1,126 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : TESTPCB.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jun 24 21:25:04 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Jun 24 21:25:04 2014				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'C:/USERS/MSAHADAT3/DROPBOX/GATECH/ETDS_PCB/ALLEGRO/allegro/TESTPCB.brd'
+Output design = ''
+Reset symbol text and size locations = 'YES'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'SMD18REC9'  pad stack refresh starting.
+
+     'SMD18REC9'  pad stack refreshed successfully.
+     
+'SMD54REC18'  pad stack refresh starting.
+
+     'SMD54REC18'  pad stack refreshed successfully.
+     
+'SMD100REC32'  pad stack refresh starting.
+
+     'SMD100REC32'  pad stack refreshed successfully.
+     
+'VIA_TH'  pad stack refresh starting.
+
+     'VIA_TH'  pad stack refreshed successfully.
+     
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+'VIA_T'  pad stack refresh starting.
+
+     'VIA_T'  pad stack refreshed successfully.
+     
+'VIA_M'  pad stack refresh starting.
+
+     'VIA_M'  pad stack refreshed successfully.
+     
+'SMD70REC70'  pad stack refresh starting.
+
+     'SMD70REC70'  pad stack refreshed successfully.
+     
+'SMD40REC40'  pad stack refresh starting.
+
+     'SMD40REC40'  pad stack refreshed successfully.
+     
+'SMD12REC12'  pad stack refresh starting.
+
+     'SMD12REC12'  pad stack refreshed successfully.
+     
+'SMD25REC49'  pad stack refresh starting.
+
+     'SMD25REC49'  pad stack refreshed successfully.
+     
+'SMD16REC36'  pad stack refresh starting.
+
+     'SMD16REC36'  pad stack refreshed successfully.
+     
+'SMD138REC39'  pad stack refresh starting.
+
+     'SMD138REC39'  pad stack refreshed successfully.
+     
+'SMD32REC40'  pad stack refresh starting.
+
+     'SMD32REC40'  pad stack refreshed successfully.
+     
+'SMD16REC25'  pad stack refresh starting.
+
+     'SMD16REC25'  pad stack refreshed successfully.
+     
+'SMD67REC41'  pad stack refresh starting.
+
+     'SMD67REC41'  pad stack refreshed successfully.
+     
+'SMD150REC20'  pad stack refresh starting.
+
+     'SMD150REC20'  pad stack refreshed successfully.
+     
+'SMD50REC50'  pad stack refresh starting.
+
+     'SMD50REC50'  pad stack refreshed successfully.
+     
+'SMD50REC10'  pad stack refresh starting.
+
+     'SMD50REC10'  pad stack refreshed successfully.
+     
+'SMD100REC100'  pad stack refresh starting.
+
+     'SMD100REC100'  pad stack refreshed successfully.
+     
+'SMD19REC19'  pad stack refresh starting.
+
+     'SMD19REC19'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

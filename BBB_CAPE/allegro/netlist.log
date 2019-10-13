@@ -1,0 +1,21 @@
+{ Using PSTWRITER 16.6.0 d001May-17-2016 at 17:58:42 }
+
+#1 WARNING(ORCAP-36006): Part Name "H5X1_DEBUG_H5X1_DEB_851-87-005-10-001101" is renamed to "H5X1_DEBUG_H5X1_DEB_851-87-005-".
+#2 WARNING(ORCAP-36042): Pin "AVDD" is renamed to "AVDD#22" as visible power pin of same name already exists in Package cc2510f32rspr_1 , U7A: SCHEMATIC1, PAGE1 (4.92, 5.62).
+#3 WARNING(ORCAP-36042): Pin "DVDD" is renamed to "DVDD#10" as visible power pin of same name already exists in Package cc2510f32rspr_1 , U7A: SCHEMATIC1, PAGE1 (4.92, 5.62).
+#4 WARNING(ORCAP-36042): Pin "DVDD" is renamed to "DVDD#2" as visible power pin of same name already exists in Package cc2510f32rspr_1 , U7A: SCHEMATIC1, PAGE1 (4.92, 5.62).
+#5 WARNING(ORCAP-36042): Pin "AVDD" is renamed to "AVDD#19" as visible power pin of same name already exists in Package cc2510f32rspr_1 , U7A: SCHEMATIC1, PAGE1 (4.92, 5.62).
+#6 WARNING(ORCAP-36042): Pin "AVDD" is renamed to "AVDD#26" as visible power pin of same name already exists in Package cc2510f32rspr_1 , U7A: SCHEMATIC1, PAGE1 (4.92, 5.62).
+#7 WARNING(ORCAP-36042): Pin "AVDD" is renamed to "AVDD#25" as visible power pin of same name already exists in Package cc2510f32rspr_1 , U7A: SCHEMATIC1, PAGE1 (4.92, 5.62).
+#8 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#3" as visible power pin of same name already exists in Package CRYSTAL_2 , Y1: SCHEMATIC1, PAGE1 (9.74, 6.90).
+#9 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package CRYSTAL_2 , Y1: SCHEMATIC1, PAGE1 (9.74, 6.90).
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\USERS\MSAHADAT3\DROPBOX\GATECH\BBB_CAPE\allegro/pstchip.dat
+
+Loading... C:\USERS\MSAHADAT3\DROPBOX\GATECH\BBB_CAPE\allegro/pstchip.dat
+
+Loading... C:\USERS\MSAHADAT3\DROPBOX\GATECH\BBB_CAPE\allegro/pstxprt.dat
+
+Loading... C:\USERS\MSAHADAT3\DROPBOX\GATECH\BBB_CAPE\allegro/pstxnet.dat
+packaging the design view...

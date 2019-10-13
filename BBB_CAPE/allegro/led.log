@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : LED.dra                                       )
+(    Software Version : 16.6-2015S056                                 )
+(    Date/Time        : Mon Nov 09 14:01:51 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro
+    Name      = led.psm
+    User      = msahadat3
+    Machine   = TS418-17
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

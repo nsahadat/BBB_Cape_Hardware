@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dynamic Shape Status                                             )
+(                                                                     )
+(    Drawing          : TESTPCB.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Jun 27 15:58:00 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Dynamic shapes out of date: 4 out of 4
+  Current fill mode         : DISABLED
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+       State: Out of date  Point on shape: (7515.01 16569.01)  Net: GND
+
+    Layer = BOTTOM
+       State: Out of date  Point on shape: (7515.01 16569.01)  Net: GND
+
+    Layer = VCC3V
+       State: Out of date  Point on shape: (7515.01 16569.01)  Net: VCC3V
+
+    Layer = GND
+       State: Out of date  Point on shape: (7515.01 16569.01)  Net: GND

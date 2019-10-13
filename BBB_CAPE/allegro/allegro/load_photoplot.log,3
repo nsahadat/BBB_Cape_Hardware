@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Cadence Artwork Import                                           )
+(                                                                     )
+(    Drawing          : artwork_test.brd                              )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Jun 25 20:03:56 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Jun 25 20:03:56 2014				Page     1
+
+
+Processing photoplot file C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/a~
+llegro/SILKSCREEN_TOP.art ...
+Adding the film data on ETCH/TOP.
+DRC errors detected.
+DRC errors detected.
+DRC errors detected.
+DRC errors detected.
+DRC errors detected.
+DRC errors detected.
+DRC errors detected.
+DRC errors detected.
+DRC errors detected.
+Load Photoplot complete.

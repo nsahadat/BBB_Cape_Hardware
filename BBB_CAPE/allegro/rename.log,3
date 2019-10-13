@@ -1,0 +1,96 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    RENAME REFDES                                                    )
+(                                                                     )
+(    Drawing          : ETDS_PCB_V1_5.brd                             )
+(    Software Version : 16.6-2015S056                                 )
+(    Date/Time        : Wed Nov 11 16:10:05 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Renaming components on BOTH_SIDES on entire BOARD
+    Extents: (0.00,0.00) (34000.00,22000.00)
+
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the RIGHT, from the top down.
+
+OLD R1    NEW R1
+OLD R2    NEW R2
+OLD U1    NEW U1
+OLD M1    NEW M1
+OLD 1    NEW 1
+OLD R3    NEW R3
+OLD M2    NEW M2
+OLD R4    NEW R4
+OLD R5    NEW R5
+OLD 2    NEW 2
+OLD 3    NEW 3
+OLD C1    NEW C1
+OLD 4    NEW 4
+OLD U2    NEW U2
+OLD 5    NEW 5
+OLD R6    NEW R6
+OLD R7    NEW R7
+OLD C2    NEW C2
+OLD C3    NEW C3
+OLD C4    NEW C4
+OLD R8    NEW R8
+OLD R9    NEW R9
+OLD C5    NEW C5
+OLD 6    NEW 6
+OLD L1    NEW L1
+OLD C6    NEW C6
+OLD 7    NEW 7
+OLD C7    NEW C7
+OLD 8    NEW 8
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the LEFT, from the top down.
+
+Reference designator C1 already exists ... skipping to C2.
+Reference designator C2 already exists ... skipping to C3.
+Reference designator C3 already exists ... skipping to C4.
+Reference designator C4 already exists ... skipping to C5.
+Reference designator C5 already exists ... skipping to C6.
+Reference designator C6 already exists ... skipping to C7.
+Reference designator C7 already exists ... skipping to C8.
+OLD C8    NEW C8
+OLD C9    NEW C9
+OLD C10    NEW C10
+OLD C11    NEW C11
+OLD C12    NEW C12
+Reference designator U1 already exists ... skipping to U2.
+Reference designator U2 already exists ... skipping to U3.
+OLD U3    NEW U3
+Reference designator L1 already exists ... skipping to L2.
+OLD L2    NEW L2
+Reference designator 1 already exists ... skipping to 2.
+Reference designator 2 already exists ... skipping to 3.
+Reference designator 3 already exists ... skipping to 4.
+Reference designator 4 already exists ... skipping to 5.
+Reference designator 5 already exists ... skipping to 6.
+Reference designator 6 already exists ... skipping to 7.
+Reference designator 7 already exists ... skipping to 8.
+Reference designator 8 already exists ... skipping to 9.
+OLD 9    NEW 9
+OLD C13    NEW C13
+OLD C14    NEW C14
+OLD U4    NEW U4
+Reference designator R1 already exists ... skipping to R2.
+Reference designator R2 already exists ... skipping to R3.
+Reference designator R3 already exists ... skipping to R4.
+Reference designator R4 already exists ... skipping to R5.
+Reference designator R5 already exists ... skipping to R6.
+Reference designator R6 already exists ... skipping to R7.
+Reference designator R7 already exists ... skipping to R8.
+Reference designator R8 already exists ... skipping to R9.
+Reference designator R9 already exists ... skipping to R10.
+OLD R10    NEW R10
+OLD C15    NEW C15
+OLD R11    NEW R11
+OLD R12    NEW R12
+OLD C16    NEW C16
+OLD C17    NEW C17
+OLD S1    NEW S1
+OLD USB1    NEW USB1
+OLD 10    NEW 10

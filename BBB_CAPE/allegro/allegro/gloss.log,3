@@ -1,0 +1,417 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : TESTPCB.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Jul 02 13:27:22 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+**WARNING: Disabling dynamic shapes
+
+
+
+Line and Via Cleanup glossing in progress.
+Started on Wed Jul 02 13:27:22 2014
+
+ To be cleaned  : lines vias and missing connections
+ Number of executions  : 3
+ Retry?  : NO
+ Clean pin escapes?  : NO
+ Slip Slide?  : NO
+ Jog size limit is -0.01.
+
+ Etch length/via is -0.01.
+
+ Net length limit is 10000.00.
+
+ Minimum Via Limit : 1
+ Maximum 45 limit is 1.00.
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/TESTPCB.brd
+Started on   Wed Jul 02 13:27:22 2014
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 38  Unplaced 0  Total 38
+        Nets:  W/Rats 35  No/Rats 0  Total 35
+        Pins:  W/Rats 133  No/Rats 0  Unused 40  Unplaced 0  Total 173
+        Equivalent ICs (1 pin = 1/14 EIC)  12
+        Router Keepin (in) (7.5090,16.5690) by (8.5970,17.0360)
+        Board area (sq in)  0.5
+        Board density (sq in/EIC) 0.041
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 98           0           98
+        Already Connected           98           0           98
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Manh Distance (inches)      16.69
+        Etch Length (inches)        12.83        0.00        12.83
+        Number of vias		    58           0           58
+        Vias per Connection          0.58        0.00         0.58
+        Smd pins with attached clines                       109
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H  5.00  5.00  5.00   5.00  5.00   15.00  25.00
+        X grids:     1.00  Offset: 0.00
+        Y grids:     1.00  Offset: 0.00
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     4  BOTTOM               V  5.00  5.00  5.00   5.00  5.00   15.00  25.00
+        X grids:     1.00  Offset: 0.00
+        Y grids:     1.00  Offset: 0.00
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 98           0           98
+        Already Connected           98           0           98
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        12.83        0.00        12.83
+        Number of vias		    58           0           58
+        Vias per Connection          0.58        0.00         0.58
+        Smd pins with attached clines                       109
+
+
+    Parameters taken from execution 2
+    ----------------------------------
+    PARAMETERS: Layers  1 4 :
+                Window 200.00: Jog-size 150.00: Keep-Away -1: Jog-Limit -1
+                Ripup: OFF
+                Slide OFF: Length-Limit -1: Hug 0: 
+                Vias:  THRU; offset OFF; Limit -1: Via-line-via 0: 
+    INS/CLEANUP:  Start   - lines, vias, missing -  no retry
+    BITMAP: allocate 2038608 bytes 
+    rt_pass6:rt_bldwin: num 5  area 101519  time 5 0:0:0 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 6  area 196219  time 22 0:0:0 hours
+    rt_pass6:rt_bldwin: num 11  area 299021  time 28 0:0:0 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 12  area 433221  time 55 0:0:0 hours
+    rt_pass6:rt_bldwin: num 20  area 546325  time 62 0:0:0 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 21  area 696625  time 109 0:0:1 hours
+    rt_pass6:rt_bldwin: num 24  area 744280  time 112 0:0:1 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 25  area 894580  time 159 0:0:1 hours
+    rt_pass6:rt_bldwin: num 35  area 1050340  time 168 0:0:1 hours
+    ATTEMPTS: 3 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 36  area 1200940  time 214 0:0:2 hours
+    rt_pass6:rt_bldwin: num 39  area 1257850  time 217 0:0:2 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 40  area 1408850  time 264 0:0:2 hours
+    rt_pass6:rt_bldwin: num 48  area 1527173  time 270 0:0:2 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 49  area 1679273  time 315 0:0:3 hours
+    rt_pass6:rt_bldwin: num 58  area 1849547  time 326 0:0:3 hours
+    ATTEMPTS: 3 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 59  area 2000147  time 371 0:0:3 hours
+    rt_pass6:rt_bldwin: num 61  area 2018515  time 373 0:0:3 hours
+    ATTEMPTS: 0 this step: 0 skips:  
+    rt_pass6:rt_bldwin:oops num 62  area 2169115  time 418 0:0:4 hours
+    rt_pass6:rt_bldwin: num 80  area 2353049  time 431 0:0:4 hours
+    ATTEMPTS: 8 this step: 0 skips:  
+    BITMAP: no allocate 
+**WARNING - no source found (831000,1667400) net = VCC3V
+**WARNING - no source found (757400,1672800) net = VCC3V
+**WARNING - no target found (760800,1701366)
+**WARNING - no source found (773400,1692800) net = VCC3V
+**WARNING - no target found (777200,1701500)
+**WARNING - no source found (777200,1701500) net = VCC3V
+**WARNING - no target found (788400,1697266)
+**WARNING - no source found (788400,1697266) net = VCC3V
+**WARNING - no target found (816327,1699900)
+**WARNING - no source found (816327,1699900) net = VCC3V
+**WARNING - no target found (821400,1700800)
+**WARNING - no source found (760800,1701366) net = VCC3V
+**WARNING - no target found (777200,1701500)
+    rt_pass6:rt_bldwin:oops num 81  area 2505149  time 479 0:0:4 hours
+    INS/CLEANUP:  Finished - detch=0.00 dvias=0 cputime=  0:01:56
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 98           0           98
+        Already Connected           98           0           98
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        12.83        0.00        12.83
+        Number of vias		    58           0           58
+        Vias per Connection          0.58        0.00         0.58
+        Smd pins with attached clines                       109
+
+
+    Parameters taken from execution 2
+    ----------------------------------
+    PARAMETERS: Layers  1 4 :
+                Window 200.00: Jog-size 150.00: Keep-Away -1: Jog-Limit -1
+                Ripup: OFF
+                Slide OFF: Length-Limit -1: Hug 0: 
+                Vias:  THRU; offset OFF; Limit -1: Via-line-via 0: 
+    INS/CLEANUP:  Start   - lines, vias, missing -  no retry
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin: num 86  area 2606668  time 485 0:0:4 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 87  area 2758768  time 532 0:0:5 hours
+    rt_pass6:rt_bldwin: num 92  area 2861570  time 537 0:0:5 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 93  area 3013670  time 584 0:0:5 hours
+    rt_pass6:rt_bldwin: num 101  area 3126774  time 593 0:0:5 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 102  area 3278874  time 641 0:0:6 hours
+    rt_pass6:rt_bldwin: num 105  area 3326529  time 644 0:0:6 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 106  area 3478629  time 692 0:0:6 hours
+    rt_pass6:rt_bldwin: num 116  area 3634389  time 701 0:0:7 hours
+    ATTEMPTS: 3 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 117  area 3786489  time 746 0:0:7 hours
+    rt_pass6:rt_bldwin: num 120  area 3843399  time 750 0:0:7 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 121  area 3995499  time 797 0:0:7 hours
+    rt_pass6:rt_bldwin: num 129  area 4113822  time 803 0:0:8 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 130  area 4265922  time 848 0:0:8 hours
+    rt_pass6:rt_bldwin: num 139  area 4436196  time 859 0:0:8 hours
+    ATTEMPTS: 3 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 140  area 4588296  time 904 0:0:9 hours
+    rt_pass6:rt_bldwin: num 142  area 4606664  time 906 0:0:9 hours
+    ATTEMPTS: 0 this step: 0 skips:  
+    rt_pass6:rt_bldwin:oops num 143  area 4758764  time 953 0:0:9 hours
+    rt_pass6:rt_bldwin: num 161  area 4942698  time 961 0:0:9 hours
+    ATTEMPTS: 8 this step: 0 skips:  
+    BITMAP: no allocate 
+**WARNING - no source found (831000,1667400) net = VCC3V
+**WARNING - no source found (757400,1672800) net = VCC3V
+**WARNING - no target found (760800,1701366)
+**WARNING - no source found (773400,1692800) net = VCC3V
+**WARNING - no target found (777200,1701500)
+**WARNING - no source found (777200,1701500) net = VCC3V
+**WARNING - no target found (788400,1697266)
+**WARNING - no source found (788400,1697266) net = VCC3V
+**WARNING - no target found (816327,1699900)
+**WARNING - no source found (816327,1699900) net = VCC3V
+**WARNING - no target found (821400,1700800)
+**WARNING - no source found (760800,1701366) net = VCC3V
+**WARNING - no target found (777200,1701500)
+    rt_pass6:rt_bldwin:oops num 162  area 5094798  time 1008 0:0:10 hours
+    INS/CLEANUP:  Finished - detch=0.00 dvias=0 cputime=  0:01:57
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 98           0           98
+        Already Connected           98           0           98
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        12.83        0.00        12.83
+        Number of vias		    58           0           58
+        Vias per Connection          0.58        0.00         0.58
+        Smd pins with attached clines                       109
+
+
+    Parameters taken from execution 2
+    ----------------------------------
+    PARAMETERS: Layers  1 4 :
+                Window 200.00: Jog-size 150.00: Keep-Away -1: Jog-Limit -1
+                Ripup: OFF
+                Slide OFF: Length-Limit -1: Hug 0: 
+                Vias:  THRU; offset OFF; Limit -1: Via-line-via 0: 
+    INS/CLEANUP:  Start   - lines, vias, missing -  no retry
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin: num 167  area 5196317  time 1013 0:0:10 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 168  area 5348417  time 1060 0:0:10 hours
+    rt_pass6:rt_bldwin: num 173  area 5451219  time 1067 0:0:10 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 174  area 5603319  time 1113 0:0:11 hours
+    rt_pass6:rt_bldwin: num 182  area 5716423  time 1121 0:0:11 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 183  area 5868523  time 1166 0:0:11 hours
+    rt_pass6:rt_bldwin: num 186  area 5916178  time 1169 0:0:11 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 187  area 6068278  time 1217 0:0:12 hours
+    rt_pass6:rt_bldwin: num 197  area 6224038  time 1228 0:0:12 hours
+    ATTEMPTS: 3 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 198  area 6376138  time 1275 0:0:12 hours
+    rt_pass6:rt_bldwin: num 201  area 6433048  time 1277 0:0:12 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 202  area 6585148  time 1326 0:0:13 hours
+    rt_pass6:rt_bldwin: num 210  area 6703471  time 1332 0:0:13 hours
+    ATTEMPTS: 1 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 211  area 6855571  time 1379 0:0:13 hours
+    rt_pass6:rt_bldwin: num 220  area 7025845  time 1389 0:0:13 hours
+    ATTEMPTS: 3 this step: 0 skips:  
+    BITMAP: no allocate 
+    rt_pass6:rt_bldwin:oops num 221  area 7177945  time 1434 0:0:14 hours
+    rt_pass6:rt_bldwin: num 223  area 7196313  time 1435 0:0:14 hours
+    ATTEMPTS: 0 this step: 0 skips:  
+    rt_pass6:rt_bldwin:oops num 224  area 7348413  time 1482 0:0:14 hours
+    rt_pass6:rt_bldwin: num 242  area 7532347  time 1495 0:0:14 hours
+    ATTEMPTS: 8 this step: 0 skips:  
+    BITMAP: no allocate 
+**WARNING - no source found (831000,1667400) net = VCC3V
+**WARNING - no source found (757400,1672800) net = VCC3V
+**WARNING - no target found (760800,1701366)
+**WARNING - no source found (773400,1692800) net = VCC3V
+**WARNING - no target found (777200,1701500)
+**WARNING - no source found (777200,1701500) net = VCC3V
+**WARNING - no target found (788400,1697266)
+**WARNING - no source found (788400,1697266) net = VCC3V
+**WARNING - no target found (816327,1699900)
+**WARNING - no source found (816327,1699900) net = VCC3V
+**WARNING - no target found (821400,1700800)
+**WARNING - no source found (760800,1701366) net = VCC3V
+**WARNING - no target found (777200,1701500)
+    rt_pass6:rt_bldwin:oops num 243  area 7684447  time 1541 0:0:15 hours
+    INS/CLEANUP:  Finished - detch=0.00 dvias=0 cputime=  0:01:56
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                 98           0           98
+        Already Connected           98           0           98
+        Missing Connections          0           0            0
+        Connection Completion      100.00%       0.00%      100.00%
+        Etch Length (inches)        12.83        0.00        12.83
+        Number of vias		    58           0           58
+        Vias per Connection          0.58        0.00         0.58
+        Smd pins with attached clines                       109
+
+
+
+    Total cpu time - 0:5:50 hours
+    Total elapsed time - 0:5:52 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Wed Jul 02 13:33:15 2014
+
+
+Elapsed time:  0 hr 5 min 52 sec ( 0.10 hr)
+Actual time of completion: Wed Jul 02 13:33:15 2014
+
+Error from Line & Via Cleanup Glossing = 0
+
+
+
+Line Fattening glossing in progress.
+Started on Wed Jul 02 13:33:15 2014
+	Line Fattening Parameters
+	-------------------------
+
+	Layer Name		Width	Potential Widths
+	DEFAULT			5.00	0.00 0.00 0.00 0.00
+	TOP			5.00	0.00 0.00 0.00 0.00
+	GND			5.00	0.00 0.00 0.00 0.00
+	BOTTOM			5.00	0.00 0.00 0.00 0.00
+Pass 1 Candidates 306 Fattened 0 Failed 306 Skipped 0 (  0%)
+
+
+Elapsed time:  0 hr 0 min 1 sec ( 0.00 hr)
+Actual time of completion: Wed Jul 02 13:33:16 2014
+
+Number of errors from Line Fattening Glossing = 0
+
+
+
+Line Smooth glossing in progress.
+Started on Wed Jul 02 13:33:16 2014
+
+ Smooth Functions  :  bubbles maximize 45 jogs dangling clines add 45s
+ Number of executions  : 3
+ Corner type  : 45
+ Length limit is -0.01.
+
+ Maximum 45 limit is -0.01.
+
+
+Elapsed time:  0 hr 0 min 11 sec ( 0.00 hr)
+Actual time of completion: Wed Jul 02 13:33:27 2014
+
+ - 0 - Error(s) from Line smooth Glossing
+
+WARNING: Glossing operations may leave fillets out of date.
+
+
+Glossing complete.

@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Silkscreen Audit Log File                                        )
+(                                                                     )
+(    Drawing          : TESTPCB.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Jun 25 18:26:21 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Auditing silkscreen for the top of the board.
+
+Element to Pad clearance is 5.00
+
+     ----- Top Silkscreen Audit -----
+
+
+Audit Errors: 0
+
+
+Total Audit Errors: 0
+
+Log End
+

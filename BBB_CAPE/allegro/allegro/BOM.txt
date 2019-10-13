@@ -1,0 +1,323 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><title>Bill of Material Report</title></head>
+<body>
+<b><u>Design Name</u>&nbsp;C:/Users/msahadat3/Dropbox/GATech/eTDS_PCB/allegro/allegro/TESTPCB.brd</b><br>
+<b><u>Date</u>&nbsp;Tue Jul 01 11:25:58 2014</b><br>
+
+<table align=center border=1><caption><b><u>Bill of Material Report</u></b></caption>
+<tr>
+<td><b>SYM_NAME</b></td>
+<td><b>COMP_DEVICE_TYPE</b></td>
+<td><b>COMP_VALUE</b></td>
+<td><b>COMP_TOL</b></td>
+<td><b>COMP_CLASS</b></td>
+<td><b>REFDES</b></td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_10NF</td>
+<td nowrap=true>10nF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C2</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_1UF</td>
+<td nowrap=true>1uF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C3</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_22PF</td>
+<td nowrap=true>22pF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C4</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_22PF</td>
+<td nowrap=true>22pF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C5</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_1UF</td>
+<td nowrap=true>1uF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C7</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_1UF</td>
+<td nowrap=true>1uF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C8</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_1UF</td>
+<td nowrap=true>1uF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C32</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_5.6PF</td>
+<td nowrap=true>5.6pF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C38</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_1UF</td>
+<td nowrap=true>1uF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C39</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_1NF</td>
+<td nowrap=true>1nF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C40</td>
+</tr>
+<tr>
+<td nowrap=true>C0402</td>
+<td nowrap=true>C_C0402_0.1UF</td>
+<td nowrap=true>0.1uF</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>C42</td>
+</tr>
+<tr>
+<td nowrap=true>ANTENNA</td>
+<td nowrap=true>HEADER1X1_3_ANTENNA_HEADER1X1</td>
+<td nowrap=true>Header1X1</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>H1</td>
+</tr>
+<tr>
+<td nowrap=true>H1</td>
+<td nowrap=true>HEADER1X1_2_H1_HEADER1X1</td>
+<td nowrap=true>Header1X1</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>H5</td>
+</tr>
+<tr>
+<td nowrap=true>MICROUSB</td>
+<td nowrap=true>HEADER1X1_0_MICROUSB_HEADER5X1</td>
+<td nowrap=true>Header5X1</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>H6</td>
+</tr>
+<tr>
+<td nowrap=true>H1</td>
+<td nowrap=true>HEADER1X1_1_H1_HEADER1X1</td>
+<td nowrap=true>Header1X1</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>H8</td>
+</tr>
+<tr>
+<td nowrap=true>H10</td>
+<td nowrap=true>HEADER7X1_0_H10_HEADER5X2</td>
+<td nowrap=true>Header5X2</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>H10</td>
+</tr>
+<tr>
+<td nowrap=true>H10</td>
+<td nowrap=true>HEADER7X1_0_H10_HEADER5X2</td>
+<td nowrap=true>Header5X2</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>H11</td>
+</tr>
+<tr>
+<td nowrap=true>H5X2</td>
+<td nowrap=true>CON5_0_H5X2_CON5</td>
+<td nowrap=true>CON5</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>J2</td>
+</tr>
+<tr>
+<td nowrap=true>L0402</td>
+<td nowrap=true>INDUCTOR_L0402_10NH</td>
+<td nowrap=true>10nH</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>L1</td>
+</tr>
+<tr>
+<td nowrap=true>L0402</td>
+<td nowrap=true>INDUCTOR_L0402_BEAD</td>
+<td nowrap=true>BEAD</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>L2</td>
+</tr>
+<tr>
+<td nowrap=true>LEDAP</td>
+<td nowrap=true>BRPG1204_0_LEDAP_APBL3025</td>
+<td nowrap=true>APBL3025</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>LED1</td>
+</tr>
+<tr>
+<td nowrap=true>MOS_DMP</td>
+<td nowrap=true>MOSFET P_0_MOS_DMP_DMP22D6UT</td>
+<td nowrap=true>DMP22D6UT</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>Q1</td>
+</tr>
+<tr>
+<td nowrap=true>MOS_DMN</td>
+<td nowrap=true>DMN5L06K_MOS_DMN_DMN5L06K</td>
+<td nowrap=true>DMN5L06K</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>Q2</td>
+</tr>
+<tr>
+<td nowrap=true>R0402</td>
+<td nowrap=true>R_R0402_56K</td>
+<td nowrap=true>56k</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>R4</td>
+</tr>
+<tr>
+<td nowrap=true>R0402</td>
+<td nowrap=true>R_R0402_10K</td>
+<td nowrap=true>10k</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>R28</td>
+</tr>
+<tr>
+<td nowrap=true>R0402</td>
+<td nowrap=true>R_R0402_8K</td>
+<td nowrap=true>8k</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>R29</td>
+</tr>
+<tr>
+<td nowrap=true>R0402</td>
+<td nowrap=true>R_R0402_3.9K</td>
+<td nowrap=true>3.9k</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>R40</td>
+</tr>
+<tr>
+<td nowrap=true>R0402</td>
+<td nowrap=true>R_R0402_100K</td>
+<td nowrap=true>100k</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>R41</td>
+</tr>
+<tr>
+<td nowrap=true>R0402</td>
+<td nowrap=true>R_R0402_200K</td>
+<td nowrap=true>200k</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>R42</td>
+</tr>
+<tr>
+<td nowrap=true>R0402</td>
+<td nowrap=true>R_R0402_1K</td>
+<td nowrap=true>1k</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>R43</td>
+</tr>
+<tr>
+<td nowrap=true>R0402</td>
+<td nowrap=true>R_R0402_2.7K</td>
+<td nowrap=true>2.7k</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>R44</td>
+</tr>
+<tr>
+<td nowrap=true>SWITCH</td>
+<td nowrap=true>SW_0_SWITCH_CSS-1210B</td>
+<td nowrap=true>CSS-1210B</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>S1</td>
+</tr>
+<tr>
+<td nowrap=true>TPS71730</td>
+<td nowrap=true>TPS71730_0_TPS71730_TPS71730</td>
+<td nowrap=true>TPS71730</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>U1</td>
+</tr>
+<tr>
+<td nowrap=true>LTC4054</td>
+<td nowrap=true>LTC4054_0_LTC4054_LTC4054</td>
+<td nowrap=true>LTC4054</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>U2</td>
+</tr>
+<tr>
+<td nowrap=true>BALUN</td>
+<td nowrap=true>BALUN_BD2425N50ATI_1_BALUN_BD24</td>
+<td nowrap=true>BD2425N50ATI</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>U5</td>
+</tr>
+<tr>
+<td nowrap=true>CC2510</td>
+<td nowrap=true>CC2510F32RSPR_1_CC2510_1</td>
+<td nowrap=true align=right>1</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>U7</td>
+</tr>
+<tr>
+<td nowrap=true>MPU9250</td>
+<td nowrap=true>MPU9250_1_MPU9250_MPU9250</td>
+<td nowrap=true>MPU9250</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>U8</td>
+</tr>
+<tr>
+<td nowrap=true>CRYST_26M</td>
+<td nowrap=true>CRYSTAL_2_CRYST_26M_26MHZ</td>
+<td nowrap=true>26MHz</td>
+<td>&nbsp;</td>
+<td nowrap=true>IC</td>
+<td nowrap=true>Y1</td>
+</tr>
+</table>
+</body>
+</html>
